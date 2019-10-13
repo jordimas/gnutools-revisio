@@ -2,7 +2,7 @@ L'objectiu és revisar les traduccions de gnutools https://translationproject.or
 
 Mètode
 * El dipòsit té una branca origen que conté els fitxers tal com es van baixar sense cap canvi
-* A la branca master anem fent comissions amb les correccions
+* Obrim "pull request" amb les propostes de canvis. A mida els validem, els integrem a la branca master
 
 Què corregirem?
 

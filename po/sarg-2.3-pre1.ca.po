@@ -1,0 +1,2525 @@
+# Catalan translations for sarg package.
+# Copyright (C) 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sarg package.
+# Leonardo A. D'Angelo <ldangelo@san-cayetano.com>, 2010
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sarg 2.3\n"
+"Report-Msgid-Bugs-To: fmarchal@users.sourceforge.net\n"
+"POT-Creation-Date: 2010-03-30 19:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: auth.c:42
+#, c-format
+msgid "File name too long: %s/%s/.htaccess\n"
+msgstr ""
+
+#: auth.c:46
+#, fuzzy, c-format
+msgid "(auth) Cannot open file: %s - %s\n"
+msgstr "reports"
+
+#: auth.c:51
+#, fuzzy, c-format
+msgid "(auth) Cannot open template file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: authfail.c:75 dansguardian_log.c:138 email.c:130 grepday.c:415 html.c:388
+#: lastlog.c:82 log.c:1612 realtime.c:82 siteuser.c:66 smartfilter.c:72
+#: sort.c:99 sort.c:162 squidguard_log.c:323 topsites.c:77 topsites.c:167
+#: topuser.c:157 totday.c:62 useragent.c:140 useragent.c:215 useragent.c:272
+#, c-format
+msgid "sort command return status %d\n"
+msgstr ""
+
+#: authfail.c:76 authfail.c:81 dansguardian_log.c:139 email.c:131
+#: grepday.c:416 html.c:389 lastlog.c:83 log.c:1613 realtime.c:83
+#: siteuser.c:67 siteuser.c:73 smartfilter.c:73 smartfilter.c:78 sort.c:100
+#: sort.c:163 squidguard_log.c:324 topsites.c:78 topsites.c:84 topsites.c:168
+#: topsites.c:173 topuser.c:158 totday.c:63 totday.c:68 useragent.c:141
+#: useragent.c:146 useragent.c:216 useragent.c:221 useragent.c:273
+#: useragent.c:278
+#, c-format
+msgid "sort command: %s\n"
+msgstr ""
+
+#: authfail.c:80 authfail.c:87
+#, fuzzy, c-format
+msgid "(authfail) Cannot open file %s\n"
+msgstr "reports"
+
+#: authfail.c:91 authfail.c:95 topuser.c:192
+#, fuzzy
+msgid "Authentication Failures"
+msgstr "Fallides d'autenticació"
+
+#: authfail.c:93 dansguardian_report.c:74 denied.c:76 download.c:79
+#: grepday.c:344 siteuser.c:84 smartfilter.c:163 squidguard_report.c:74
+#: topsites.c:187 topuser.c:177
+#, fuzzy, c-format
+msgid "Period: %s"
+msgstr "Report d'Accesos d'Usuaris de l'Squid"
+
+#: authfail.c:102 dansguardian_report.c:81 denied.c:83 download.c:86
+#: email.c:174 realtime.c:289 smartfilter.c:104 smartfilter.c:171
+#: squidguard_report.c:81 topuser.c:211 useragent.c:171
+#, fuzzy
+msgid "USERID"
+msgstr "Accés Decreixent (bytes)"
+
+#: authfail.c:102 dansguardian_report.c:81 denied.c:83 download.c:86
+#: realtime.c:289 smartfilter.c:104 smartfilter.c:171 squidguard_report.c:81
+#, fuzzy
+msgid "IP/NAME"
+msgstr "DATA/HORA"
+
+#: authfail.c:102 dansguardian_report.c:81 denied.c:83 download.c:86
+#: html.c:301 realtime.c:289 report.c:287 report.c:289 smartfilter.c:104
+#: smartfilter.c:171 squidguard_report.c:81 topuser.c:282
+#, fuzzy
+msgid "DATE/TIME"
+msgstr "el"
+
+#: authfail.c:102 dansguardian_report.c:81 denied.c:83 download.c:86
+#: html.c:238 realtime.c:289 report.c:289 siteuser.c:92 siteuser.c:94
+#: smartfilter.c:104 smartfilter.c:171 squidguard_report.c:81 topsites.c:196
+#, fuzzy
+msgid "ACCESSED SITE"
+msgstr "Usuari"
+
+#: authfail.c:105 html.c:81 html.c:171 html.c:373 html.c:401 siteuser.c:107
+#: topsites.c:94 topsites.c:202
+#, c-format
+msgid "Not enough memory to read file %s\n"
+msgstr ""
+
+#: authfail.c:112 repday.c:104
+#, c-format
+msgid "There is a broken date in file %s\n"
+msgstr ""
+
+#: authfail.c:116 repday.c:113
+#, c-format
+msgid "There is a broken time in file %s\n"
+msgstr ""
+
+#: authfail.c:120
+#, c-format
+msgid "There is a broken user ID in file %s\n"
+msgstr ""
+
+#: authfail.c:124
+#, c-format
+msgid "There is a broken IP address in file %s\n"
+msgstr ""
+
+#: authfail.c:128 denied.c:98 download.c:101 html.c:193 squidguard_report.c:91
+#, c-format
+msgid "There is a broken url in file %s\n"
+msgstr ""
+
+#: authfail.c:134 denied.c:104 download.c:107 siteuser.c:116 smartfilter.c:117
+#: topuser.c:271
+#, c-format
+msgid "Unknown user ID %s in file %s\n"
+msgstr ""
+
+#: convlog.c:47
+#, fuzzy, c-format
+msgid "(convlog) Cannot open log file %s\n"
+msgstr "reports"
+
+#: convlog.c:54
+#, c-format
+msgid "Maybe you have a broken record or garbage in file %s\n"
+msgstr ""
+
+#: dansguardian_log.c:56
+#, fuzzy, c-format
+msgid "Cannot open DansGuardian config file: %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: dansguardian_log.c:61 dansguardian_log.c:66 dansguardian_log.c:88
+#, fuzzy, c-format
+msgid "(dansguardian) Cannot open log file: %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: dansguardian_log.c:77 dansguardian_log.c:100 dansguardian_log.c:109
+#: dansguardian_report.c:87 grepday.c:434 grepday.c:439 grepday.c:444
+#: grepday.c:454 lastlog.c:108 log.c:849 log.c:854 log.c:860 log.c:868
+#: log.c:872 log.c:876 log.c:881 log.c:886 log.c:944 log.c:948 log.c:952
+#: log.c:956 log.c:960 log.c:964 log.c:968 log.c:972 log.c:976 log.c:988
+#: log.c:995 log.c:1019 log.c:1075 log.c:1079 log.c:1083 realtime.c:212
+#: realtime.c:216 realtime.c:220 realtime.c:224 realtime.c:233 splitlog.c:54
+#: squidguard_log.c:104 squidguard_log.c:109 topsites.c:209 topsites.c:214
+#: useragent.c:84 useragent.c:111
+#, c-format
+msgid "Maybe you have a broken record or garbage in your %s file\n"
+msgstr ""
+
+#: dansguardian_log.c:85
+#, fuzzy, c-format
+msgid "Reading DansGuardian log file: %s\n"
+msgstr "Llegint arxiu del log d'accesos"
+
+#: dansguardian_log.c:104 dansguardian_report.c:91 html.c:272 html.c:411
+#: log.c:864 log.c:930 realtime.c:229
+#, c-format
+msgid "Maybe you have a broken url in your %s file\n"
+msgstr ""
+
+#: dansguardian_log.c:133 sort.c:92 squidguard_log.c:317 useragent.c:134
+#, fuzzy, c-format
+msgid "Sorting file: %s\n"
+msgstr "Creant index.html"
+
+#: dansguardian_report.c:63 dansguardian_report.c:68
+#, fuzzy, c-format
+msgid "(dansguardian_report) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: dansguardian_report.c:72 dansguardian_report.c:76 topuser.c:188
+#, fuzzy
+msgid "DansGuardian"
+msgstr "DansGuardian"
+
+#: dansguardian_report.c:81
+#, fuzzy
+msgid "CAUSE"
+msgstr "CAUSE"
+
+#: dansguardian_report.c:95
+#, c-format
+msgid "Maybe you have a broken rule in your %s file\n"
+msgstr ""
+
+#: datafile.c:78 html.c:112 index.c:53 index.c:107 index.c:156 index.c:217
+#: index.c:316 indexonly.c:38 lastlog.c:57 report.c:108 sort.c:68 sort.c:131
+#, fuzzy, c-format
+msgid "Failed to open directory %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: datafile.c:97 report.c:138
+#, c-format
+msgid "Ignoring unknown user file %s\n"
+msgstr ""
+
+#: datafile.c:109
+#, c-format
+msgid "(datafile) directory path too long: %s/%s\n"
+msgstr ""
+
+#: datafile.c:114 datafile.c:174
+#, fuzzy, c-format
+msgid "(datafile) Cannot open file %s\n"
+msgstr "reports"
+
+#: datafile.c:119
+#, c-format
+msgid "Not enough memory to read the downloaded files.\n"
+msgstr ""
+
+#: datafile.c:131 denied.c:94 download.c:97 report.c:170 smartfilter.c:111
+#: squidguard_report.c:87 totday.c:85
+#, c-format
+msgid "There is a broken record or garbage in file %s\n"
+msgstr ""
+
+#: datafile.c:135
+#, c-format
+msgid "There is an invalid smart info in file %s\n"
+msgstr ""
+
+#: datafile.c:154 datafile.c:203 realtime.c:257 report.c:208 report.c:301
+#: report.c:331 siteuser.c:127 siteuser.c:178 topsites.c:108 topsites.c:123
+#, c-format
+msgid "Not enough memory to store the url\n"
+msgstr ""
+
+#: datafile.c:170 denied.c:74 denied.c:78 html.c:350 report.c:227 report.c:239
+#: report.c:350
+#, fuzzy
+msgid "DENIED"
+msgstr "No es pot obrir arxiu"
+
+#: datafile.c:224
+#, c-format
+msgid "Datafile %s written successfully\n"
+msgstr ""
+
+#: decomp.c:37 decomp.c:103
+#, fuzzy, c-format
+msgid "File not found: %s\n"
+msgstr "Compactant arxiu de log"
+
+#: decomp.c:43
+#, c-format
+msgid "Decompressing log file: %s > %s/sarg/sarg-file.in (zcat)\n"
+msgstr ""
+
+#: decomp.c:45 decomp.c:62 decomp.c:79
+#, fuzzy, c-format
+msgid "decompression command too long for log file %s\n"
+msgstr "Creant report"
+
+#: decomp.c:50 decomp.c:67 decomp.c:84 decomp.c:119 email.c:267 index.c:538
+#: log.c:1598
+#, c-format
+msgid "command return status %d\n"
+msgstr ""
+
+#: decomp.c:51 decomp.c:68 decomp.c:85 decomp.c:120 email.c:268 index.c:539
+#: log.c:1599
+#, c-format
+msgid "command: %s\n"
+msgstr ""
+
+#: decomp.c:60
+#, c-format
+msgid "Decompressing log file: %s > %s/sarg/sarg-file.in (bzcat)\n"
+msgstr ""
+
+#: decomp.c:77
+#, fuzzy, c-format
+msgid "Decompressing log file: %s (uncompress)\n"
+msgstr "Creant report"
+
+#: decomp.c:111
+#, fuzzy, c-format
+msgid "Compressing log file: %s\n"
+msgstr "Descompactant arxiu de log"
+
+#: decomp.c:114
+#, c-format
+msgid "compression command too long for log file %s\n"
+msgstr ""
+
+#: denied.c:65 denied.c:70
+#, fuzzy, c-format
+msgid "(denied) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: denied.c:86
+#, c-format
+msgid "Not enough memory to read the denied accesses\n"
+msgstr ""
+
+#: download.c:68 download.c:73
+#, fuzzy, c-format
+msgid "(download) Cannot open log file %s\n"
+msgstr "reports"
+
+#: download.c:77 download.c:81 topuser.c:190
+#, fuzzy
+msgid "Downloads"
+msgstr "Downloads"
+
+#: download.c:89 report.c:160 topuser.c:232
+#, c-format
+msgid "Not enough memory to read the downloaded files\n"
+msgstr ""
+
+#: download.c:192
+#, c-format
+msgid "Download suffix list too long\n"
+msgstr ""
+
+#: download.c:200
+#, c-format
+msgid "Too many download suffixes\n"
+msgstr ""
+
+#: email.c:64 email.c:69 email.c:74 email.c:138 email.c:151 email.c:156
+#: email.c:257
+#, fuzzy, c-format
+msgid "(email) Cannot open file %s\n"
+msgstr "reports"
+
+#: email.c:160 log.c:338
+#, fuzzy
+msgid "Squid User Access Report"
+msgstr "No es pot carregar, fallida de la memòria"
+
+#: email.c:164
+#, fuzzy
+msgid "Decreasing Access (bytes)"
+msgstr "PROMITGE"
+
+#: email.c:168 html.c:225 repday.c:79 report.c:279 smartfilter.c:96
+#: useragent.c:163
+#, fuzzy
+msgid "Period"
+msgstr "Report d'Accesos d'Usuaris de l'Squid"
+
+#: email.c:172 siteuser.c:92 siteuser.c:94 topsites.c:196 topuser.c:207
+#, fuzzy
+msgid "NUM"
+msgstr "HORA"
+
+#: email.c:176 html.c:241 topsites.c:196 topuser.c:213
+#, fuzzy
+msgid "CONNECT"
+msgstr "LLOC ACCEDIT"
+
+#: email.c:178 grepday.c:385 html.c:243 html.c:245 index.c:414 repday.c:91
+#: siteuser.c:92 topsites.c:196 topuser.c:215 topuser.c:217
+#, fuzzy
+msgid "BYTES"
+msgstr "CONEXIÓ"
+
+#: email.c:180 grepday.c:387 html.c:249 topuser.c:221
+#, fuzzy
+msgid "ELAPSED TIME"
+msgstr "BYTES"
+
+#: email.c:182 html.c:251 topuser.c:223
+#, fuzzy
+msgid "MILLISEC"
+msgstr "TEMPS UTILITZAT"
+
+#: email.c:184 html.c:253 topsites.c:196 topuser.c:225
+#, fuzzy
+msgid "TIME"
+msgstr "USERID"
+
+#: email.c:193 useragent.c:193
+#, c-format
+msgid "There is an invalid user ID in file %s\n"
+msgstr ""
+
+#: email.c:197
+#, c-format
+msgid "There is an invalid number of bytes in file %s\n"
+msgstr ""
+
+#: email.c:201
+#, c-format
+msgid "There is an invalid number of access in file %s\n"
+msgstr ""
+
+#: email.c:205
+#, c-format
+msgid "There is an invalid elapsed time in file %s\n"
+msgstr ""
+
+#: email.c:217 email.c:219 email.c:221 html.c:467 repday.c:98 repday.c:163
+#: topuser.c:343 useragent.c:287
+#, fuzzy
+msgid "TOTAL"
+msgstr "AGENT"
+
+#: email.c:236 html.c:533 index.c:414 topuser.c:371
+#, fuzzy
+msgid "AVERAGE"
+msgstr "MILISEC"
+
+#: email.c:264 html.c:235 html.c:306 topuser.c:294
+#, fuzzy
+msgid "Report"
+msgstr "Ordenant arxiu"
+
+#: email.c:274
+#, c-format
+msgid "Temporary directory name too long: %s\n"
+msgstr ""
+
+#: exclude.c:65
+#, c-format
+msgid "Not enough memory to store the exlcluded IP addresses\n"
+msgstr ""
+
+#: exclude.c:110 exclude.c:120
+#, c-format
+msgid "Not enough memory to store the excluded URLs\n"
+msgstr ""
+
+#: exclude.c:142
+#, fuzzy, c-format
+msgid "Cannot open exclude_hosts file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: exclude.c:146 exclude.c:323
+#, fuzzy, c-format
+msgid "Loading exclude file from: %s\n"
+msgstr "Llegint log de l'agent d'usuari"
+
+#: exclude.c:149 exclude.c:326
+#, fuzzy, c-format
+msgid "(gethexclude) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: exclude.c:211
+#, c-format
+msgid "IPv6 addresses are not supported (found in %s)\n"
+msgstr ""
+
+#: exclude.c:333 log.c:1671
+#, fuzzy, c-format
+msgid "Cannot get the size of file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: exclude.c:340
+#, fuzzy, c-format
+msgid "malloc error (%ld bytes required)\n"
+msgstr "Carregant configuració desde"
+
+#: getconf.c:155
+#, c-format
+msgid "The string value of parameter \"%s\" is too long\n"
+msgstr ""
+
+#: getconf.c:175
+#, fuzzy, c-format
+msgid "Missing double quote after parameter \"%s\"\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:187
+#, fuzzy, c-format
+msgid ""
+"Missing double quote after parameter \"%s\" or value is more than %d bytes "
+"long\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:208
+#, fuzzy, c-format
+msgid "The first word of parameter \"%s\" is more than %d bytes long\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:212
+#, fuzzy, c-format
+msgid "Missing second word for parameter \"%s\"\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:222
+#, fuzzy, c-format
+msgid "The second word of parameter \"%s\" is more than %d bytes long\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:245
+#, c-format
+msgid "The integer value of parameter \"%s\" is invalid\n"
+msgstr ""
+
+#: getconf.c:297
+#, fuzzy, c-format
+msgid "Unknown value \"%s\" for parameter \"%s\"\n"
+msgstr "Missing double quote after parameter"
+
+#: getconf.c:301
+#, c-format
+msgid ""
+"Value \"%s\" conflicts with other selected values for parameter \"%s\"\n"
+msgstr ""
+
+#: getconf.c:321
+#, c-format
+msgid "SARG: TAG: %s\n"
+msgstr ""
+
+#: getconf.c:368
+#, c-format
+msgid ""
+"Maybe you have a broken record or garbage in \"date_format\" parameter\n"
+msgstr ""
+
+#: getconf.c:378
+#, c-format
+msgid "Error: Invalid syntax in hours tag!\n"
+msgstr ""
+
+#: getconf.c:385
+#, c-format
+msgid "Error: Invalid syntax in weekdays tag!\n"
+msgstr ""
+
+#: getconf.c:397
+#, c-format
+msgid "Too many log files in configuration file\n"
+msgstr ""
+
+#: getconf.c:537 getconf.c:544
+#, c-format
+msgid "Template file name is too long in parameter \"AuthUserTemplateFile\"\n"
+msgstr ""
+
+#: getconf.c:607 getconf.c:612
+#, c-format
+msgid "The \"byte_cost\" parameter of the configuration file is invalid\n"
+msgstr ""
+
+#: getconf.c:619
+#, fuzzy, c-format
+msgid "SARG: Unknown option %s\n"
+msgstr "Unknown option"
+
+#: getconf.c:629
+#, fuzzy, c-format
+msgid "Loading configuration from %s\n"
+msgstr "Llegint log de l'agent d'usuari"
+
+#: getconf.c:632
+#, fuzzy, c-format
+msgid "(getconf) Cannot open file %s\n"
+msgstr "reports"
+
+#: grepday.c:58
+#, fuzzy, c-format
+msgid "malloc error (%zu bytes required)\n"
+msgstr "Carregant configuració desde"
+
+#: grepday.c:67
+#, c-format
+msgid "(grepday) iconv cannot convert from %s to UTF-8 - %s\n"
+msgstr ""
+
+#: grepday.c:72
+#, c-format
+msgid "(grepday) iconv failed to convert string \"%s\" from %s to UTF-8 - %s\n"
+msgstr ""
+
+#: grepday.c:269
+#, c-format
+msgid "(grepday) Fontname %s not found\n"
+msgstr ""
+
+#: grepday.c:346
+#, fuzzy, c-format
+msgid "User: %s"
+msgstr "Període"
+
+#: grepday.c:388 index.c:252
+#, fuzzy
+msgid "DAYS"
+msgstr "DAYS"
+
+#: grepday.c:391
+#, c-format
+msgid "user name too long for %s/%s/graph_day.png\n"
+msgstr ""
+
+#: grepday.c:395
+#, c-format
+msgid "user name too long for %s/%s.day\n"
+msgstr ""
+
+#: grepday.c:399
+#, c-format
+msgid "user name too long for %s/%s.graph\n"
+msgstr ""
+
+#: grepday.c:421 grepday.c:426
+#, fuzzy, c-format
+msgid "(grepday) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: html.c:77
+#, fuzzy, c-format
+msgid "(html2) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:100
+#, fuzzy, c-format
+msgid "(html11) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:104
+#, c-format
+msgid "(html11) read error in %s\n"
+msgstr ""
+
+#: html.c:132
+#, c-format
+msgid "Unknown user ID %s in directory %s\n"
+msgstr ""
+
+#: html.c:142
+#, c-format
+msgid "Destination directory too long: %s/%s\n"
+msgstr ""
+
+#: html.c:151
+#, c-format
+msgid "Input file name too long: %s/%s\n"
+msgstr ""
+
+#: html.c:155
+#, c-format
+msgid "Output file name too long: %s/%s/%s.html\n"
+msgstr ""
+
+#: html.c:159
+#, c-format
+msgid "File name too long: %s/%s/denied_%s.html\n"
+msgstr ""
+
+#: html.c:166
+#, fuzzy, c-format
+msgid "(html3) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:183 topuser.c:247
+#, c-format
+msgid "There is a broken number of access in file %s\n"
+msgstr ""
+
+#: html.c:188
+#, c-format
+msgid "There is a broken downloaded size in file %s\n"
+msgstr ""
+
+#: html.c:197
+#, c-format
+msgid "There is a broken access code in file %s\n"
+msgstr ""
+
+#: html.c:201 report.c:175
+#, c-format
+msgid "There is a broken elapsed time in file %s\n"
+msgstr ""
+
+#: html.c:206
+#, c-format
+msgid "There is a broken in-cache volume in file %s\n"
+msgstr ""
+
+#: html.c:211
+#, c-format
+msgid "There is a broken out-cache volume in file %s\n"
+msgstr ""
+
+#: html.c:220
+#, fuzzy, c-format
+msgid "(html5) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:224 html.c:228
+msgid "User report"
+msgstr ""
+
+#: html.c:226 repday.c:81 report.c:280 report.c:282 smartfilter.c:165
+#, fuzzy
+msgid "User"
+msgstr "Període"
+
+#: html.c:227 report.c:281 topuser.c:179
+#, fuzzy
+msgid "Sort"
+msgstr "USUARIS"
+
+#: html.c:235 smartfilter.c:58 smartfilter.c:97 topuser.c:193
+#, fuzzy
+msgid "SmartFilter"
+msgstr "FiltreInteligent"
+
+#: html.c:247 topuser.c:219
+msgid "IN-CACHE-OUT"
+msgstr ""
+
+#: html.c:258
+#, fuzzy, c-format
+msgid "Making report: %s\n"
+msgstr "Carregant arxiu de paraules de pas desde"
+
+#: html.c:264
+#, c-format
+msgid "Maybe you have a broken number of access in your %s file\n"
+msgstr ""
+
+#: html.c:268
+#, c-format
+msgid "Maybe you have a broken number of bytes in your %s file\n"
+msgstr ""
+
+#: html.c:276
+#, c-format
+msgid "Maybe you have a broken status in your %s file\n"
+msgstr ""
+
+#: html.c:280 log.c:904 log.c:909
+#, c-format
+msgid "Maybe you have a broken elapsed time in your %s file\n"
+msgstr ""
+
+#: html.c:284
+#, c-format
+msgid "Maybe you have a broken in cache column in your %s file\n"
+msgstr ""
+
+#: html.c:288
+#, c-format
+msgid "Maybe you have a broken not in cache column in your %s file (%d)\n"
+msgstr ""
+
+#: html.c:358
+#, c-format
+msgid "File name too long: %s/%s.ip\n"
+msgstr ""
+
+#: html.c:363
+#, fuzzy, c-format
+msgid "(html6) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:368
+#, fuzzy, c-format
+msgid "(html7) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:394
+#, fuzzy, c-format
+msgid "(html8) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:407
+#, c-format
+msgid "Maybe you have a broken user IP in your %s file\n"
+msgstr ""
+
+#: html.c:415
+#, c-format
+msgid "Maybe you have a broken day in your %s file\n"
+msgstr ""
+
+#: html.c:419 log.c:1042 log.c:1293
+#, c-format
+msgid "Maybe you have a broken time in your %s file\n"
+msgstr ""
+
+#: html.c:423
+#, c-format
+msgid "Maybe you have a broken size in your %s file\n"
+msgstr ""
+
+#: html.c:427
+#, c-format
+msgid "Maybe you have a broken elapsed time in your %s file (%d)\n"
+msgstr ""
+
+#: html.c:497
+#, fuzzy, c-format
+msgid "(html9) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:512
+#, fuzzy, c-format
+msgid "(html10) Cannot open file %s\n"
+msgstr "reports"
+
+#: html.c:519
+#, c-format
+msgid "User %s limit exceeded (%d MB). Added to file %s\n"
+msgstr ""
+
+#: index.c:49
+#, fuzzy, c-format
+msgid "Making index.html\n"
+msgstr "ja existeix, renombrant-lo com a"
+
+#: index.c:138 index.c:184 index.c:245
+#, fuzzy, c-format
+msgid "(index) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: index.c:141 index.c:411
+#, fuzzy
+msgid "SARG report"
+msgid_plural "SARG reports"
+msgstr[0] "Reports per usuario i direcció IP"
+msgstr[1] "Reports per usuario i direcció IP"
+
+#: index.c:144 index.c:191 index.c:252
+#, fuzzy
+msgid "YEAR"
+msgstr "YEAR"
+
+#: index.c:144
+#, fuzzy
+msgid "SIZE"
+msgstr "SIZE"
+
+#: index.c:171
+#, c-format
+msgid ""
+"Too many month directories in %s\n"
+"Supernumerary entries are ignored\n"
+msgstr ""
+
+#: index.c:187
+#, c-format
+msgid "SARG: report for %04d"
+msgid_plural "SARG: reports for %04d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.c:191 index.c:252
+#, fuzzy
+msgid "MONTH"
+msgstr "MONTH"
+
+#: index.c:232
+#, c-format
+msgid ""
+"Too many day directories in %s\n"
+"Supernumerary entries are ignored\n"
+msgstr ""
+
+#: index.c:248
+#, c-format
+msgid "SARG: report for %04d/%02d"
+msgid_plural "SARG: reports for %04d/%02d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.c:328 index.c:388
+#, c-format
+msgid "not enough memory to sort the index\n"
+msgstr ""
+
+#: index.c:354
+#, c-format
+msgid "Maybe you have a broken week day in your %s%s/sarg-date file\n"
+msgstr ""
+
+#: index.c:358
+#, c-format
+msgid "Maybe you have a broken month in your %s%s/sarg-date file\n"
+msgstr ""
+
+#: index.c:362
+#, c-format
+msgid "Maybe you have a broken day in your %s%s/sarg-date file\n"
+msgstr ""
+
+#: index.c:366 index.c:376
+#, c-format
+msgid "Maybe you have a broken time in your %s%s/sarg-date file\n"
+msgstr ""
+
+#: index.c:371
+#, c-format
+msgid "Maybe you have a broken year in your %s%s/sarg-date file\n"
+msgstr ""
+
+#: index.c:408
+#, fuzzy, c-format
+msgid "(index) Cannot open file %s\n"
+msgstr "reports"
+
+#: index.c:414
+#, fuzzy
+msgid "FILE/PERIOD"
+msgstr "NUM"
+
+#: index.c:414
+#, fuzzy
+msgid "CREATION DATE"
+msgstr "ARXIU/PERÍODE"
+
+#: index.c:414 siteuser.c:92 siteuser.c:94
+#, fuzzy
+msgid "USERS"
+msgstr "DATA CREACIÓ"
+
+#: index.c:517 index.c:618
+#, c-format
+msgid "(index) rename error from \"%s\" to \"%s\" - %s\n"
+msgstr ""
+
+#: index.c:528
+#, c-format
+msgid "failed to create link \"%s\" to \"%s\" - %s\n"
+msgstr ""
+
+#: indexonly.c:46
+#, c-format
+msgid "Name of the file to remove is too long: %s/%s\n"
+msgstr ""
+
+#: indexonly.c:50
+#, fuzzy, c-format
+msgid "Failed to remove the file %s\n"
+msgstr "reports"
+
+#: ip2name.c:54
+#, c-format
+msgid ""
+"IP to name resolution (getnameinfo) on IP address %s failed with error %d - %"
+"s\n"
+msgstr ""
+
+#: lastlog.c:52 lastlog.c:100
+#, fuzzy, c-format
+msgid "(lastlog) Cannot open temporary file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: lastlog.c:66
+#, c-format
+msgid "Failed to get the creation time of %s\n"
+msgstr ""
+
+#: lastlog.c:113
+#, fuzzy, c-format
+msgid "Removing old report file %s\n"
+msgstr "normal"
+
+#: lastlog.c:115
+#, c-format
+msgid "Directory name too long: %s%s\n"
+msgstr ""
+
+#: lastlog.c:125
+#, fuzzy, c-format
+msgid "Failed to delete the file %s\n"
+msgstr "reports"
+
+#: log.c:357
+#, c-format
+msgid ""
+"SARG: The date range requested on the command line by option -d is invalid.\n"
+msgstr ""
+
+#: log.c:381
+#, c-format
+msgid "SARG: Too many log files passed on command line with option -l.\n"
+msgstr ""
+
+#: log.c:419
+#, c-format
+msgid "The time range passed on the command line with option -t is invalid\n"
+msgstr ""
+
+#: log.c:424 log.c:429
+#, c-format
+msgid "Time period must be MM or MM:SS. Exit\n"
+msgstr ""
+
+#: log.c:454
+#, c-format
+msgid "Option -%c require an argument\n"
+msgstr ""
+
+#: log.c:469
+#, c-format
+msgid "Init\n"
+msgstr ""
+
+#: log.c:473
+#, fuzzy, c-format
+msgid "Cannot open config file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: log.c:593 log.c:622
+#, fuzzy, c-format
+msgid "Parameters:\n"
+msgstr "Paràmetres"
+
+#: log.c:594 log.c:623
+#, fuzzy, c-format
+msgid "          Hostname or IP address (-a) = %s\n"
+msgstr "Nom de host o direcció IP"
+
+#: log.c:595 log.c:624
+#, c-format
+msgid "                   Useragent log (-b) = %s\n"
+msgstr ""
+
+#: log.c:596 log.c:625
+#, c-format
+msgid "                    Exclude file (-c) = %s\n"
+msgstr ""
+
+#: log.c:597 log.c:626
+#, c-format
+msgid "                 Date from-until (-d) = %s\n"
+msgstr ""
+
+#: log.c:598 log.c:627
+#, fuzzy, c-format
+msgid "   Email address to send reports (-e) = %s\n"
+msgstr "opcions"
+
+#: log.c:599 log.c:628
+#, c-format
+msgid "                     Config file (-f) = %s\n"
+msgstr ""
+
+#: log.c:601 log.c:630
+#, c-format
+msgid "                     Date format (-g) = Europe (dd/mm/yyyy)\n"
+msgstr ""
+
+#: log.c:603 log.c:632
+#, c-format
+msgid "                     Date format (-g) = USA (mm/dd/yyyy)\n"
+msgstr ""
+
+#: log.c:605 log.c:634
+#, c-format
+msgid "                     Date format (-g) = Sites & Users (yyyy/ww)\n"
+msgstr ""
+
+#: log.c:606 log.c:635
+#, c-format
+msgid "                       IP report (-i) = %s\n"
+msgstr ""
+
+#: log.c:606 log.c:609 log.c:611 log.c:616 log.c:617 log.c:635 log.c:638
+#: log.c:640 log.c:645 log.c:646
+#, fuzzy
+msgid "Yes"
+msgstr "Si"
+
+#: log.c:606 log.c:609 log.c:611 log.c:616 log.c:617 log.c:635 log.c:638
+#: log.c:640 log.c:645 log.c:646
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: log.c:608 log.c:637
+#, c-format
+msgid "                       Input log (-l) = %s\n"
+msgstr ""
+
+#: log.c:609 log.c:638
+#, c-format
+msgid "              Resolve IP Address (-n) = %s\n"
+msgstr ""
+
+#: log.c:610 log.c:639
+#, c-format
+msgid "                      Output dir (-o) = %s\n"
+msgstr ""
+
+#: log.c:611 log.c:640
+#, fuzzy, c-format
+msgid "Use Ip Address instead of userid (-p) = %s\n"
+msgstr "Report IP"
+
+#: log.c:612 log.c:641
+#, c-format
+msgid "                   Accessed site (-s) = %s\n"
+msgstr ""
+
+#: log.c:613 log.c:642
+#, c-format
+msgid "                            Time (-t) = %s\n"
+msgstr ""
+
+#: log.c:614 log.c:643
+#, c-format
+msgid "                            User (-u) = %s\n"
+msgstr ""
+
+#: log.c:615 log.c:644
+#, c-format
+msgid "                   Temporary dir (-w) = %s\n"
+msgstr ""
+
+#: log.c:616 log.c:645
+#, c-format
+msgid "                  Debug messages (-x) = %s\n"
+msgstr ""
+
+#: log.c:617 log.c:646
+#, c-format
+msgid "                Process messages (-z) = %s\n"
+msgstr ""
+
+#: log.c:647 log.c:651
+#, c-format
+msgid "sarg version: %s\n"
+msgstr ""
+
+#: log.c:680
+#, c-format
+msgid "setrlimit error - %s\n"
+msgstr ""
+
+#: log.c:691
+#, c-format
+msgid "Not enough memory to read a log file\n"
+msgstr ""
+
+#: log.c:700 log.c:707
+#, fuzzy, c-format
+msgid "(log) Cannot open file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: log.c:720
+#, fuzzy, c-format
+msgid "Reading access log file: from stdin\n"
+msgstr "Llegint arxiu del log d'accesos"
+
+#: log.c:726
+#, fuzzy, c-format
+msgid "Reading access log file: %s\n"
+msgstr "Llegint arxiu del log d'accesos"
+
+#: log.c:728 log.c:795
+#, fuzzy, c-format
+msgid "(log) Cannot open log file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: log.c:758
+#, c-format
+msgid "SARG: Records in file: %lu, reading: %3.2f%%"
+msgstr ""
+
+#: log.c:772
+#, fuzzy, c-format
+msgid "Log is from Microsoft ISA: %s\n"
+msgstr "Log is from Microsoft ISA"
+
+#: log.c:780
+#, c-format
+msgid "The name of the file is invalid: %s\n"
+msgstr ""
+
+#: log.c:804
+#, c-format
+msgid "SARG: Records in file: %lu, reading: %3.2lf%%"
+msgstr ""
+
+#: log.c:820
+#, c-format
+msgid "Maybe you have a broken record or garbage in your exclusion string\n"
+msgstr ""
+
+#: log.c:840
+#, c-format
+msgid "Maybe you have a broken time in your access.log file\n"
+msgstr ""
+
+#: log.c:914
+#, c-format
+msgid "Maybe you have a broken client IP address in your %s file\n"
+msgstr ""
+
+#: log.c:918
+#, c-format
+msgid "Maybe you have a broken result code in your %s file\n"
+msgstr ""
+
+#: log.c:922
+#, c-format
+msgid "Maybe you have a broken amount of data in your %s file\n"
+msgstr ""
+
+#: log.c:926
+#, c-format
+msgid "Maybe you have a broken request method in your %s file\n"
+msgstr ""
+
+#: log.c:934 log.c:1030
+#, c-format
+msgid "Maybe you have a broken user ID in your %s file\n"
+msgstr ""
+
+#: log.c:1024
+#, c-format
+msgid "Maybe you have a broken IP in your %s file\n"
+msgstr ""
+
+#: log.c:1036 log.c:1117 log.c:1121 log.c:1126 log.c:1130 log.c:1134
+#: log.c:1146 log.c:1150 log.c:1155 log.c:1159 log.c:1164 useragent.c:90
+#, c-format
+msgid "Maybe you have a broken date in your %s file\n"
+msgstr ""
+
+#: log.c:1048
+#, c-format
+msgid "Maybe you have a broken download duration in your %s file\n"
+msgstr ""
+
+#: log.c:1054
+#, c-format
+msgid "Maybe you have a broken download size in your %s file\n"
+msgstr ""
+
+#: log.c:1062
+#, c-format
+msgid "Maybe you have a broken access code in your %s file\n"
+msgstr ""
+
+#: log.c:1098
+#, c-format
+msgid "Cannot convert the timestamp from the squid log file\n"
+msgstr ""
+
+#: log.c:1173
+#, c-format
+msgid "Log file is not fully supported by sarg. Please report this bug.\n"
+msgstr ""
+
+#: log.c:1197
+#, c-format
+msgid "User ID too long: %s\n"
+msgstr ""
+
+#: log.c:1210
+#, c-format
+msgid "Excluded code: %s\n"
+msgstr ""
+
+#: log.c:1281
+#, c-format
+msgid "Excluded site: %s\n"
+msgstr ""
+
+#: log.c:1349
+#, c-format
+msgid "Excluded user: %s\n"
+msgstr ""
+
+#: log.c:1379
+#, c-format
+msgid "Not enough memory to store the user %s\n"
+msgstr ""
+
+#: log.c:1410
+#, c-format
+msgid "Temporary user file name too long: %s/sarg/%s.unsort\n"
+msgstr ""
+
+#: log.c:1414 log.c:1442
+#, fuzzy, c-format
+msgid "(log) Cannot open temporary file: %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: log.c:1488
+#, c-format
+msgid "SARG: Records in file: %lu, reading: %3.2f%%\n"
+msgstr ""
+
+#: log.c:1503
+#, c-format
+msgid "Failed to build the string representation of the date range\n"
+msgstr ""
+
+#: log.c:1516
+#, c-format
+msgid "   Records read: %ld, written: %ld, excluded: %ld\n"
+msgstr ""
+
+#: log.c:1519
+#, fuzzy, c-format
+msgid "Log with mixed records format (squid and common log)\n"
+msgstr "El log té formats de registre barrejats (squid i common log)"
+
+#: log.c:1522
+#, fuzzy, c-format
+msgid "Common log format\n"
+msgstr "Format Common log"
+
+#: log.c:1525
+#, fuzzy, c-format
+msgid "Squid log format\n"
+msgstr "Format Squid log"
+
+#: log.c:1528
+#, fuzzy, c-format
+msgid "Sarg log format\n"
+msgstr "Sarg log format"
+
+#: log.c:1532 log.c:1551
+#, fuzzy, c-format
+msgid "No records found\n"
+msgstr "No s'han trobat registres"
+
+#: log.c:1533 log.c:1552 log.c:1645
+#, fuzzy, c-format
+msgid "End\n"
+msgstr "Fi"
+
+#: log.c:1534
+#, fuzzy, c-format
+msgid "Log with invalid format\n"
+msgstr "Log amb format invàlid"
+
+#: log.c:1571
+#, fuzzy, c-format
+msgid "Period: %s\n"
+msgstr "Report d'Accesos d'Usuaris de l'Squid"
+
+#: log.c:1586
+#, c-format
+msgid "failed to rename %s to %s - %s\n"
+msgstr ""
+
+#: log.c:1605
+#, fuzzy, c-format
+msgid "Sarg parsed log saved as %s\n"
+msgstr "Sarg parsed log saved as"
+
+#: log.c:1661
+#, fuzzy, c-format
+msgid "Loading password file from %s\n"
+msgstr "error malloc"
+
+#: log.c:1664
+#, fuzzy, c-format
+msgid "(getusers) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: log.c:1678
+#, fuzzy, c-format
+msgid "malloc error (%ld)\n"
+msgstr "Carregant configuració desde"
+
+#: log.c:1688
+#, c-format
+msgid "You have an invalid user in your %s file\n"
+msgstr ""
+
+#: longline.c:113 longline.c:126
+#, c-format
+msgid "Not enough memory to read one more line from the input log file\n"
+msgstr ""
+
+#: realtime.c:59
+#, c-format
+msgid "(realtime) mkstemp error - %s\n"
+msgstr ""
+
+#: realtime.c:64 realtime.c:204
+#, c-format
+msgid "Not enough memory to read the log file\n"
+msgstr ""
+
+#: realtime.c:72
+#, c-format
+msgid "Maybe a broken record or garbage was returned by %s\n"
+msgstr ""
+
+#: realtime.c:105
+#, c-format
+msgid "The time stamp at column 1 is too long\n"
+msgstr ""
+
+#: realtime.c:109
+#, c-format
+msgid "The connection duration at column 2 is too long\n"
+msgstr ""
+
+#: realtime.c:117
+#, c-format
+msgid "The IP address at column 3 is too long\n"
+msgstr ""
+
+#: realtime.c:121
+#, c-format
+msgid "The status at column 4 is too long\n"
+msgstr ""
+
+#: realtime.c:125
+#, c-format
+msgid "The size at column 5 is too long\n"
+msgstr ""
+
+#: realtime.c:129
+#, c-format
+msgid "The action at column 6 is too long\n"
+msgstr ""
+
+#: realtime.c:134 realtime.c:143 realtime.c:147 realtime.c:151
+#, c-format
+msgid "The URL at column 7 is too long\n"
+msgstr ""
+
+#: realtime.c:138
+#, c-format
+msgid "The user ID at column 8 is too long\n"
+msgstr ""
+
+#: realtime.c:155
+#, c-format
+msgid "The data at column 8 is too long\n"
+msgstr ""
+
+#: realtime.c:159
+#, c-format
+msgid "The user at column 9 is too long\n"
+msgstr ""
+
+#: realtime.c:197
+#, c-format
+msgid "(realtime) open error %s - %s\n"
+msgstr ""
+
+#: realtime.c:287
+#, fuzzy
+msgid "Realtime"
+msgstr "Realtime"
+
+#: realtime.c:288
+#, fuzzy
+msgid "Auto refresh"
+msgstr "Auto refresh"
+
+#: realtime.c:289
+#, fuzzy
+msgid "TYPE"
+msgstr "TYPE"
+
+#: repday.c:57
+#, c-format
+msgid "Output file name too long: %s/%s/d%s.html\n"
+msgstr ""
+
+#: repday.c:66 repday.c:71
+#, fuzzy, c-format
+msgid "(repday) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: repday.c:75
+msgid "Day report"
+msgstr ""
+
+#: repday.c:117
+#, c-format
+msgid "There is a broken quantity in file %s\n"
+msgstr ""
+
+#: report.c:87 util.c:893 util.c:899 util.c:906 util.c:912 util.c:920
+#, c-format
+msgid ""
+"Cannot create the output directory name containing the period as part of the "
+"name\n"
+msgstr ""
+
+#: report.c:99 report.c:124 report.c:265 report.c:430 report.c:478
+#: report.c:510 report.c:571 report.c:822
+#, fuzzy, c-format
+msgid "(report) Cannot open file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: report.c:120
+#, c-format
+msgid "(report) directory entry too long: %s/%s\n"
+msgstr ""
+
+#: report.c:179
+#, c-format
+msgid "There is a broken smart info in file %s\n"
+msgstr ""
+
+#: report.c:278
+msgid "Site access report"
+msgstr ""
+
+#: report.c:392
+#, fuzzy, c-format
+msgid "Successful report generated on %s\n"
+msgstr "DENEGAT"
+
+#: report.c:397
+#, fuzzy, c-format
+msgid "Successful report generated and sent to %s\n"
+msgstr "Report generat satisfactoriament a"
+
+#: report.c:423
+#, fuzzy, c-format
+msgid "Making file: %s/%s\n"
+msgstr "Report generat satisfactoriament i enviat a"
+
+#: report.c:425 report.c:473
+#, c-format
+msgid "Temporary file name too long: %s/%s.utmp\n"
+msgstr ""
+
+#: report.c:450
+#, c-format
+msgid "Temporary file name too long: %s/%s.htmp\n"
+msgstr ""
+
+#: report.c:455
+#, fuzzy, c-format
+msgid "(report-1) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: report.c:505
+#, c-format
+msgid "Path too long %s/%s.utmp\n"
+msgstr ""
+
+#: report.c:539
+#, c-format
+msgid "Path too long %s/%s.htmp\n"
+msgstr ""
+
+#: report.c:544
+#, fuzzy, c-format
+msgid "(report-2) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: report.c:566
+#, c-format
+msgid "Path too long %s/%s.ip\n"
+msgstr ""
+
+#: report.c:611
+#, c-format
+msgid "Invalid total number of accesses in %s\n"
+msgstr ""
+
+#: report.c:628
+#, c-format
+msgid "Invalid total size in %s\n"
+msgstr ""
+
+#: report.c:645
+#, c-format
+msgid "Invalid total elapsed time in %s\n"
+msgstr ""
+
+#: report.c:662
+#, c-format
+msgid "Invalid total cache hit in %s\n"
+msgstr ""
+
+#: report.c:679
+#, c-format
+msgid "Invalid total cache miss in %s\n"
+msgstr ""
+
+#: report.c:689
+#, c-format
+msgid "User name too long or invalid in %s\n"
+msgstr ""
+
+#: report.c:705
+#, c-format
+msgid "Invalid number of accesses in %s\n"
+msgstr ""
+
+#: report.c:722
+#, c-format
+msgid "Invalid number of bytes in %s\n"
+msgstr ""
+
+#: report.c:731
+#, c-format
+msgid "URL too long or invalid in %s\n"
+msgstr ""
+
+#: report.c:739
+#, c-format
+msgid "IP address too long or invalid in %s\n"
+msgstr ""
+
+#: report.c:747
+#, c-format
+msgid "Time too long or invalid in %s\n"
+msgstr ""
+
+#: report.c:755
+#, c-format
+msgid "Date too long or invalid in %s\n"
+msgstr ""
+
+#: report.c:771
+#, c-format
+msgid "Invalid elapsed time in %s\n"
+msgstr ""
+
+#: report.c:788
+#, c-format
+msgid "Invalid cache hit size in %s\n"
+msgstr ""
+
+#: report.c:805
+#, c-format
+msgid "Invalid cache miss size in %s\n"
+msgstr ""
+
+#: siteuser.c:72 siteuser.c:78
+#, fuzzy, c-format
+msgid "(siteuser) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: siteuser.c:82 siteuser.c:86 topuser.c:187
+#, fuzzy
+msgid "Sites & Users"
+msgstr "Llocs"
+
+#: siteuser.c:101
+#, fuzzy, c-format
+msgid "ERROR: Cannot load. Memory fault\n"
+msgstr "Carregant taula d'usuaris"
+
+#: smartfilter.c:67
+#, c-format
+msgid "cannot build the sort command to sort file %s\n"
+msgstr ""
+
+#: smartfilter.c:77 smartfilter.c:84
+#, fuzzy, c-format
+msgid "(smartfilter) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: smartfilter.c:128 smartfilter.c:182 smartfilter.c:192 util.c:1526
+#, fuzzy
+msgid "Generated by"
+msgstr "TOTAL"
+
+#: smartfilter.c:128 smartfilter.c:182 smartfilter.c:192 util.c:1526
+#, fuzzy
+msgid "on"
+msgstr "Generat per"
+
+#: smartfilter.c:134
+#, fuzzy, c-format
+msgid "(smartfilter) Cannot open file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: sort.c:125
+#, fuzzy, c-format
+msgid "pre-sorting files\n"
+msgstr "pre-sorting files"
+
+#: sort.c:157
+#, c-format
+msgid "user name too long to sort %s\n"
+msgstr ""
+
+#: sort.c:167
+#, c-format
+msgid "user name too long for %s/%s.unsort\n"
+msgstr ""
+
+#: splitlog.c:47
+#, fuzzy, c-format
+msgid "(splitlog) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: squidguard_log.c:52
+#, fuzzy, c-format
+msgid "Reading squidGuard log file %s\n"
+msgstr "Llegint arxiu del log d'accesos"
+
+#: squidguard_log.c:79 squidguard_log.c:84
+#, c-format
+msgid ""
+"Not enough memory to store the name of the new squidGuard log to be read - %"
+"s\n"
+msgstr ""
+
+#: squidguard_log.c:89 squidguard_log.c:237 squidguard_log.c:253
+#: squidguard_report.c:63 squidguard_report.c:68
+#, fuzzy, c-format
+msgid "(squidguard) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: squidguard_log.c:99 squidguard_log.c:170
+#, c-format
+msgid "There is a broken record or garbage in your %s file\n"
+msgstr ""
+
+#: squidguard_log.c:114
+#, c-format
+msgid "Year string too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:120
+#, c-format
+msgid "Month string too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:126
+#, c-format
+msgid "Day string too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:132
+#, c-format
+msgid "Hour string too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:138
+#, c-format
+msgid "Banning list name too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:144
+#, c-format
+msgid "IP address too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:150
+#, c-format
+msgid "User ID too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:156
+#, c-format
+msgid "URL too long in squidGuard log file %s\n"
+msgstr ""
+
+#: squidguard_log.c:248
+#, fuzzy, c-format
+msgid "Cannot open squidGuard config file: %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: squidguard_report.c:72 squidguard_report.c:76
+#, fuzzy
+msgid "SQUIDGUARD"
+msgstr "SQUIDGUARD"
+
+#: squidguard_report.c:81
+#, fuzzy
+msgid "RULE"
+msgstr "REGLA"
+
+#: squidguard_report.c:95
+#, c-format
+msgid "There is a broken rule in file %s\n"
+msgstr ""
+
+#: topsites.c:83 topsites.c:89 topsites.c:172 topsites.c:181
+#, fuzzy, c-format
+msgid "(topsites) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: topsites.c:185 topuser.c:186
+msgid "Top sites"
+msgstr ""
+
+#: topsites.c:190
+#, fuzzy, c-format
+msgid "Top %d sites"
+msgstr "Topsites"
+
+#: topsites.c:218
+#, c-format
+msgid "The url is invalid in file %s\n"
+msgstr ""
+
+#: topuser.c:79 topuser.c:84 topuser.c:163 topuser.c:170 topuser.c:395
+#, fuzzy, c-format
+msgid "(topuser) Cannot open file %s\n"
+msgstr "reports"
+
+#: topuser.c:92 util.c:749
+#, c-format
+msgid "Not enough memory to read the file %s\n"
+msgstr ""
+
+#: topuser.c:174
+#, c-format
+msgid "SARG report for %s"
+msgstr ""
+
+#: topuser.c:180
+#, fuzzy
+msgid "Top users"
+msgstr "Topuser"
+
+#: topuser.c:189
+#, fuzzy
+msgid "squidGuard"
+msgstr "squidGuard"
+
+#: topuser.c:191
+#, fuzzy
+msgid "Denied"
+msgstr "Denied"
+
+#: topuser.c:194
+msgid "Useragent"
+msgstr ""
+
+#: topuser.c:239
+#, c-format
+msgid "There is a broken user in file %s\n"
+msgstr ""
+
+#: topuser.c:243 util.c:772
+#, c-format
+msgid "There is a broken number of bytes in file %s\n"
+msgstr ""
+
+#: topuser.c:251
+#, c-format
+msgid "There is a broken elpased time in file %s\n"
+msgstr ""
+
+#: topuser.c:255
+#, c-format
+msgid "There is a broken in-cache size in file %s\n"
+msgstr ""
+
+#: topuser.c:259
+#, c-format
+msgid "There is a broken out-of-cache size in file %s\n"
+msgstr ""
+
+#: topuser.c:289
+#, fuzzy
+msgid "Graphic"
+msgstr "Graphic"
+
+#: totday.c:67 totday.c:75
+#, fuzzy, c-format
+msgid "(totday) Cannot open log file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: totger.c:45 totger.c:68
+#, fuzzy, c-format
+msgid "(totger) Cannot open file %s\n"
+msgstr "reports"
+
+#: totger.c:50
+#, c-format
+msgid "Not enough memory to read the temporary file %s\n"
+msgstr ""
+
+#: usage.c:32
+#, c-format
+msgid "Usage: %s [options...]\n"
+msgstr ""
+
+#: usage.c:33
+#, fuzzy
+msgid "     -a Hostname or IP address"
+msgstr "Nom de host o direcció IP"
+
+#: usage.c:34
+#, fuzzy
+msgid "     -b Useragent log"
+msgstr "Arxiu de configuració"
+
+#: usage.c:35
+#, fuzzy
+msgid "     -c Exclude file"
+msgstr "excluit"
+
+#: usage.c:36
+msgid "     -d Date from-until dd/mm/yyyy-dd/mm/yyyy"
+msgstr ""
+
+#: usage.c:37
+#, fuzzy
+msgid "     -e Email address to send reports (stdout for console)"
+msgstr "opcions"
+
+#: usage.c:38
+#, c-format
+msgid "     -f Config file (%s/sarg.conf)\n"
+msgstr ""
+
+#: usage.c:39
+msgid "     -g Date format [e=Europe -> dd/mm/yyyy, u=USA -> mm/dd/yyyy]"
+msgstr ""
+
+#: usage.c:40
+msgid "     -h This help"
+msgstr ""
+
+#: usage.c:41
+#, fuzzy
+msgid "     -i Reports by user and IP address"
+msgstr "stdout per a consola"
+
+#: usage.c:42
+#, fuzzy
+msgid "     -l Input log"
+msgstr "Missatges de procesos"
+
+#: usage.c:43
+#, fuzzy
+msgid "     -n Resolve IP Address"
+msgstr "Arxiu no trobat"
+
+#: usage.c:44
+#, fuzzy
+msgid "     -o Output dir"
+msgstr "Log d'entrada"
+
+#: usage.c:45
+#, fuzzy
+msgid "     -p Use Ip Address instead of userid (reports)"
+msgstr "Report IP"
+
+#: usage.c:46
+msgid "     -s Accessed site [Eg. www.microsoft.com, www.netscape.com]"
+msgstr ""
+
+#: usage.c:47
+msgid "     -t Time [HH, HH:MM]"
+msgstr ""
+
+#: usage.c:48
+msgid "     -u User"
+msgstr ""
+
+#: usage.c:49
+#, fuzzy
+msgid "     -w Temporary dir"
+msgstr "Versió de l'Squid"
+
+#: usage.c:50
+#, fuzzy
+msgid "     -x Debug messages"
+msgstr "Directori temporal"
+
+#: usage.c:51
+#, fuzzy
+msgid "     -z Process messages"
+msgstr "Missatges de depuració"
+
+#: usage.c:52
+#, fuzzy
+msgid "     -convert Convert the access.log file to a legible date"
+msgstr "Afegint a l'arxiu"
+
+#: usage.c:53
+#, fuzzy
+msgid "     -split Split the log file by date in -d parameter"
+msgstr "Converteix l'arxiu access.log a una data llegible"
+
+#: usage.c:56
+msgid ""
+"\n"
+"\tPlease donate to the sarg project:"
+msgstr ""
+
+#: useragent.c:66 useragent.c:71 useragent.c:145 useragent.c:154
+#: useragent.c:220 useragent.c:228 useragent.c:277
+#, fuzzy, c-format
+msgid "(useragent) Cannot open file %s\n"
+msgstr "reports"
+
+#: useragent.c:76
+#, fuzzy, c-format
+msgid "Reading useragent log: %s\n"
+msgstr "Resolguent direcció IP"
+
+#: useragent.c:101
+#, c-format
+msgid "Maybe you have a broken useragent entry in your %s file\n"
+msgstr ""
+
+#: useragent.c:127
+#, fuzzy, c-format
+msgid "   Records read: %ld\n"
+msgstr "Registres llegits"
+
+#: useragent.c:159
+#, fuzzy, c-format
+msgid "Making Useragent report\n"
+msgstr "Log de l'agent d'usuari"
+
+#: useragent.c:161 useragent.c:162
+#, fuzzy
+msgid "Squid Useragent's Report"
+msgstr "Clasificat per"
+
+#: useragent.c:171 useragent.c:287
+#, fuzzy
+msgid "AGENT"
+msgstr "Report d'Agent d'Usuari Squid"
+
+#: useragent.c:176 useragent.c:238
+#, c-format
+msgid "There is an invalid IP address in file %s\n"
+msgstr ""
+
+#: useragent.c:189 useragent.c:242 useragent.c:294
+#, c-format
+msgid "There is an invalid useragent in file %s\n"
+msgstr ""
+
+#: userinfo.c:69
+#, c-format
+msgid "Not enough memory to store the user\n"
+msgstr ""
+
+#: usertab.c:64
+#, fuzzy, c-format
+msgid "(usertab) Cannot open file %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: usertab.c:70
+#, fuzzy, c-format
+msgid "Cannot get the size of file %s"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: usertab.c:76
+#, fuzzy, c-format
+msgid "ERROR: Cannot load. Memory fault"
+msgstr "Carregant taula d'usuaris"
+
+#: usertab.c:87 usertab.c:96
+#, c-format
+msgid "The list of the users is too long in your %s file.\n"
+msgstr ""
+
+#: usertab.c:133
+#, c-format
+msgid "Unable to connect to LDAP server %s on port %d\n"
+msgstr ""
+
+#: usertab.c:139
+#, c-format
+msgid "Could not set LDAP protocol version %d\n"
+msgstr ""
+
+#: usertab.c:147
+#, c-format
+msgid "Cannot bind to LDAP server: %s\n"
+msgstr ""
+
+#: usertab.c:179
+#, fuzzy, c-format
+msgid "LDAP search failed: %s\n"
+msgstr "Llocs i Usuaris"
+
+#: usertab.c:212 usertab.c:222
+#, fuzzy, c-format
+msgid "Loading User table: %s\n"
+msgstr "Llocs i Usuaris"
+
+#: usertab.c:217
+#, c-format
+msgid "LDAP module not compiled in sarg\n"
+msgstr ""
+
+#: util.c:77
+#, c-format
+msgid "getword backtrace:\n"
+msgstr ""
+
+#: util.c:96
+#, c-format
+msgid "Cannot parse again the line as it was modified\n"
+msgstr ""
+
+#: util.c:240
+#, c-format
+msgid "Invalid buffer passed to getword_ptr\n"
+msgstr ""
+
+#: util.c:294
+#, c-format
+msgid "Invalid path (%s). Please, use absolute paths only.\n"
+msgstr ""
+
+#: util.c:295 util.c:310 util.c:322
+#, c-format
+msgid "process aborted.\n"
+msgstr ""
+
+#: util.c:302
+#, c-format
+msgid "directory name too long: %s\n"
+msgstr ""
+
+#: util.c:309 util.c:321
+#, c-format
+msgid "mkdir %s %s\n"
+msgstr ""
+
+#: util.c:338
+#, c-format
+msgid ""
+"The requested number of digits passed to my_lltoa (%d) is bigger than the "
+"output buffer size (%d)\n"
+msgstr ""
+
+#: util.c:424
+#, fuzzy
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+msgstr ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+
+#: util.c:443
+msgid "SARG: "
+msgstr ""
+
+#: util.c:650
+#, c-format
+msgid "Failed to read the date in %s\n"
+msgstr ""
+
+#: util.c:714
+#, c-format
+msgid "Failed to read the number of users in %s\n"
+msgstr ""
+
+#: util.c:762
+#, c-format
+msgid "There is a invalid user in file %s\n"
+msgstr ""
+
+#: util.c:768
+#, c-format
+msgid "There a broken total number of access in file %s\n"
+msgstr ""
+
+#: util.c:942
+#, c-format
+msgid "Cannot copy images to target directory %simages\n"
+msgstr ""
+
+#: util.c:952
+#, fuzzy, c-format
+msgid "(util) Can't open directory %s: %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: util.c:960
+#, c-format
+msgid "Cannot stat \"%s\" - %s\n"
+msgstr ""
+
+#: util.c:971
+#, c-format
+msgid "Failed to copy image %s to %s\n"
+msgstr ""
+
+#: util.c:977 util.c:980
+#, fuzzy
+msgid "Cannot open file"
+msgstr "reports"
+
+#: util.c:1089 util.c:1112
+#, fuzzy, c-format
+msgid "File %s already exists, moved to %s\n"
+msgstr "Arxiu"
+
+#: util.c:1130
+#, fuzzy, c-format
+msgid "cannot open %s for writing\n"
+msgstr "reports"
+
+#: util.c:1233
+#, c-format
+msgid "Invalid date range passed as argument\n"
+msgstr ""
+
+#: util.c:1242
+#, c-format
+msgid ""
+"The date range passed as argument is not formated as dd/mm/yyyy-dd/mm/yyyy\n"
+msgstr ""
+
+#: util.c:1293
+#, fuzzy, c-format
+msgid "Removing temporary files sarg-general, sarg-period\n"
+msgstr "Esborrant arxiu vell de report"
+
+#: util.c:1296
+#, c-format
+msgid "(removetmp) directory too long to remove %s/sarg-period\n"
+msgstr ""
+
+#: util.c:1300 util.c:1310
+#, fuzzy, c-format
+msgid "(removetmp) Cannot open file %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: util.c:1314
+#, fuzzy, c-format
+msgid "Failed to write the total line in %s - %s\n"
+msgstr "reports"
+
+#: util.c:1318
+#, fuzzy, c-format
+msgid "Failed to close %s after writing the total line - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: util.c:1336
+#, fuzzy, c-format
+msgid "malloc error (1024)\n"
+msgstr "Carregant configuració desde"
+
+#: util.c:1342
+#, fuzzy, c-format
+msgid "(util) Cannot open file %s (exclude_codes)\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: util.c:1498
+#, c-format
+msgid "Cannot get disk space because the path %s%s is too long\n"
+msgstr ""
+
+#: util.c:1502
+#, c-format
+msgid "Cannot get disk space with command %s\n"
+msgstr ""
+
+#: util.c:1506
+#, c-format
+msgid "Cannot get disk size with command %s\n"
+msgstr ""
+
+#: util.c:1511
+#, c-format
+msgid "The command %s failed\n"
+msgstr ""
+
+#: util.c:1617
+#, c-format
+msgid "SARG: MALICIUS CODE DETECTED.\n"
+msgstr ""
+
+#: util.c:1618
+#, c-format
+msgid ""
+"SARG: I think someone is trying to execute arbitrary code in your system "
+"using sarg.\n"
+msgstr ""
+
+#: util.c:1619
+#, c-format
+msgid "SARG: please review your access.log and/or your useragent.log file.\n"
+msgstr ""
+
+#: util.c:1620
+#, c-format
+msgid "SARG: process stoped. No actions taken.\n"
+msgstr ""
+
+#: util.c:1624
+#, c-format
+msgid "temporary directory too long: %s/sarg\n"
+msgstr ""
+
+#: util.c:1686
+#, c-format
+msgid "SARG Version: %s\n"
+msgstr ""
+
+#: util.c:1718
+#, c-format
+msgid "directory name to delete too long: %s/%s\n"
+msgstr ""
+
+#: util.c:1727
+#, c-format
+msgid "cannot stat %s\n"
+msgstr ""
+
+#: util.c:1732 util.c:1745
+#, fuzzy, c-format
+msgid "cannot delete %s - %s\n"
+msgstr "No es pot obrir l'arxiu de log"
+
+#: util.c:1738
+#, c-format
+msgid "unknown path type %s\n"
+msgstr ""
+
+#, fuzzy
+#~ msgid "(dansguardian_report) Cannot open file %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "(denied) Cannot open file %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(download) Cannot open file %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(email) read error in %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(html1) Cannot open file %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(siteuser) Cannot open file %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "(squidguard) Cannot open file %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(topsites) Cannot open file %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "(topsites) read error in %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "Making period file\n"
+#~ msgstr "Creant arxiu"
+
+#, fuzzy
+#~ msgid "Cannot open file %s for writing\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "IN"
+#~ msgstr "SORTIDA"
+
+#, fuzzy
+#~ msgid "CACHE"
+#~ msgstr "ENTRADA"
+
+#, fuzzy
+#~ msgid "OUT"
+#~ msgstr "IP/NOM"
+
+#, fuzzy
+#~ msgid "Cannot open log file"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "Cannot load. Memory fault"
+#~ msgstr "Carregant taula d'usuaris"
+
+#, fuzzy
+#~ msgid "malloc error"
+#~ msgstr "Carregant configuració desde"
+
+#, fuzzy
+#~ msgid "SARG: (useragent) Cannot open file %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "(useragent) Cannot open file: %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "Topsites"
+#~ msgstr "Topsites"
+
+#, fuzzy
+#~ msgid "Usage"
+#~ msgstr "Directori de sortida"
+
+#, fuzzy
+#~ msgid "options"
+#~ msgstr "Mode d'ús"
+
+#, fuzzy
+#~ msgid "Date from-until"
+#~ msgstr "Data desde-fins a"
+
+#, fuzzy
+#~ msgid "Email address to send reports"
+#~ msgstr "opcions"
+
+#, fuzzy
+#~ msgid "stdout for console"
+#~ msgstr "Direcció de correu on enviar els reports"
+
+#, fuzzy
+#~ msgid "Config file"
+#~ msgstr "Arxiu d'exclusions"
+
+#, fuzzy
+#~ msgid "Date format"
+#~ msgstr "Format de data"
+
+#, fuzzy
+#~ msgid "Europe"
+#~ msgstr "Formato de fecha"
+
+#, fuzzy
+#~ msgid "USA"
+#~ msgstr "Europa"
+
+#, fuzzy
+#~ msgid "Accessed site"
+#~ msgstr "Fa anar direcció IP en cop de userid"
+
+#, fuzzy
+#~ msgid "Time"
+#~ msgstr "Lloc accedit"
+
+#, fuzzy
+#~ msgid "(totday) Cannot open log file: %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "SARG: (totday) Cannot open log file: %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "(squidguard) Cannot open log file: %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "Top"
+#~ msgstr "Esborrant arxius temporals"
+
+#, fuzzy
+#~ msgid "sites"
+#~ msgstr "Màxim"
+
+#, fuzzy
+#~ msgid "SARG: (log) Cannot open log file: %s - %s\n"
+#~ msgstr "No es pot obrir l'arxiu de log"
+
+#, fuzzy
+#~ msgid "Cannot open temporary file"
+#~ msgstr "No es pot obrir l'arxiu temporal"
+
+#, fuzzy
+#~ msgid "Reading access log file"
+#~ msgstr "Llegint arxiu del log d'accesos"
+
+#, fuzzy
+#~ msgid "SARG: (email) Cannot open file: %s\n"
+#~ msgstr "reports"
+
+#, fuzzy
+#~ msgid "End"
+#~ msgstr "Fi"
+
+#, fuzzy
+#~ msgid "File"
+#~ msgstr "Creant arxiu de període"
+
+#, fuzzy
+#~ msgid "limit exceeded"
+#~ msgstr "versió"
+
+#, fuzzy
+#~ msgid "Added to file"
+#~ msgstr "límit excedit"
+
+#, fuzzy
+#~ msgid "SARG:           Hostname or IP address (-a) = %s\n"
+#~ msgstr "Nom de host o direcció IP"
+
+#, fuzzy
+#~ msgid "SARG:    Email address to send reports (-e) = %s\n"
+#~ msgstr "opcions"
+
+#, fuzzy
+#~ msgid "SARG: Use Ip Address instead of userid (-p) = %s\n"
+#~ msgstr "Report IP"
+
+#, fuzzy
+#~ msgid "sarg version: %s"
+#~ msgstr "Creant report d'agent d'usuari"
+
+#, fuzzy
+#~ msgid "written"
+#~ msgstr "escrits"
+
+#, fuzzy
+#~ msgid "excluded"
+#~ msgstr "Carregant arxiu d'exclusions desde"
+
+#, fuzzy
+#~ msgid "IP report"
+#~ msgstr "USA"

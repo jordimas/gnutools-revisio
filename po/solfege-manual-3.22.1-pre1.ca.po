@@ -1,0 +1,1093 @@
+# Catalan translation of solfege-manual message catalog
+# Copyright (C) 2002-2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the solfege package.
+# Walter Garcia-Fontes <walter.garcia@upf.edu>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: solfege-manual-3.22.1-pre1\n"
+"POT-Creation-Date: 2013-09-07 23:30+0200\n"
+"PO-Revision-Date: 2016-12-18 10:31+0100\n"
+"Last-Translator: Walter Garcia-Fontes <walter.garcia@upf.edu>\n"
+"Language-Team: Catalan <ca@dodds.net>\n"
+"Language: ca\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: help/C/twelvetone.xml:2(title)
+msgid "Sing 12 random notes"
+msgstr "Canta 12 notes aleatòries"
+
+#: help/C/twelvetone.xml:13(para)
+msgid "In this exercise, the program will display all the twelve tones in the scale in a random order and play the first one. Then you should sing all the notes and see if the last note matches. So this is more like an exam in sight singing than an exercise for learning how to sing the intervals. For that you should try some of the other interval exercises."
+msgstr "En aquest exercici, el programa mostrarà les dotze notes de l'escala en ordre aleatori i tocarà la primera. A continuació haureu de cantar totes les notes i mirar si concorda l'última. Així que això és més un examen de lectura vista que un exercici per aprendre com cantar els intervals. Per això hauríeu de provar algun dels altres exercicis d'interval."
+
+#: help/C/trainingset-editor.xml:2(title)
+msgid "Training set editor"
+msgstr "Editor de conjunts d'entrenament"
+
+#: help/C/trainingset-editor.xml:10(phrase)
+#: help/C/ear-training-test-printout-editor.xml:10(phrase)
+msgid "Screenshot of the trainingset-editor window."
+msgstr "Captura de pantalla de la finestra de l'editor de conjunts d'entrenament."
+
+#: help/C/trainingset-editor.xml:15(para)
+msgid "The training set editor lets you create MIDI/WAV/MP3/OGG files of questions so that you can upload them to your pda, cell phone or MP3 player. A solution sheet will be generated for you to print out. Then you can let the MP3 player play the tracks in random order, and you can use the solution sheet to check if you recognized the music correctly."
+msgstr "L'editor de conjunts d'entrenament us permet creat fitxers MIDI/WAV/MP3/OGG de preguntes per carregar-les al vostre pda, telèfon mobil o reproductor MP3. Es generarà una pàgina de solucions perquè la imprimiu. A continuació podeu fer que el reproductor de MP3 reprodueixi les pistes en ordre aleatori, i podeu usar la pàgina de solucions per verificar si heu reconegut la música correctament."
+
+#: help/C/trainingset-editor.xml:21(para)
+msgid "You use the training set editor to define which exercises to generate. You can save your definition in a file for later use. Each time you click <guibutton>Export</guibutton> a new set of files are generated in a directory of your choice. You have to manually upload the generated sound files to you mobile device."
+msgstr "Useu l'editor de conjunts d'entrenament per definir quins exercicis generar. Podeu desar la vostra definició en un fitxer per a ús posterior. Cadap cop que cliqueu <guibutton>Exporta</guibutton> un nou conjunt de fitxers es genera a una carpeta de la vostra elecció. Heu de carregar manualment els fitxers de so generats al vostre dispositiu mòbil."
+
+#: help/C/trainingset-editor.xml:27(para)
+msgid "The program let you generate questions from as many lesson files as you like, but the most typical usage would be to generate lots of questions from just a single, or just a few files."
+msgstr "El programa us deixa generar preguntes a partir de quants fitxers de lliçons vulgueu, però l'ús més comú seria generar moltes preguntes a partir d'un únic fitxer, o d'uns pocs fitxers."
+
+#: help/C/trainingset-editor.xml:31(para)
+msgid "The programs used to convert between the different file formats are defined in Gui page of the <link linkend=\"preferences-gui\">preferences window</link>. Please check the definitions there if you have problems converting the MIDI files to WAV, MP3 or OGG format."
+msgstr "Els programes que s'usen per convertir entre diferents formats de fitxer es defineixen a la pàgina IGU de la  <link linkend=\\\"preferences-gui\\\">finestra de preferències</link>. Si us plau verifiqueu aquí les definicions si teniu problemes convertint els fitxers MIDI al format  WAV, MP3 o OGG."
+
+#: help/C/trainingset-editor.xml:38(title)
+msgid "Table headings explained"
+msgstr "Explicació de les capçaleres de taula"
+
+#: help/C/trainingset-editor.xml:40(term)
+msgid "Count"
+msgstr "Nombre"
+
+#: help/C/trainingset-editor.xml:41(para)
+msgid "The number of questions to generate from the lesson file."
+msgstr "El nombre de preguntes a generar a partir del fitxer de lliçons."
+
+#: help/C/trainingset-editor.xml:45(term)
+msgid "Repeat"
+msgstr "Repetició"
+
+#: help/C/trainingset-editor.xml:46(para)
+msgid "The number of times to repeat each question."
+msgstr "El nombre de vegades a repetir cada pregunta."
+
+#: help/C/trainingset-editor.xml:50(term)
+msgid "Delay"
+msgstr "Endarreriment"
+
+#: help/C/trainingset-editor.xml:50(para)
+msgid "How long delay it will be between the questions. Measured in the length of quarter-notes."
+msgstr "La llargada de l'endarreriment que hi haurà entre les preguntes. Mesurat en la longitud d'una negra."
+
+#: help/C/tone-in-context.xml:2(title)
+msgid "Tone in context"
+msgstr "To en context"
+
+#: help/C/tone-in-context.xml:10(phrase)
+msgid "Screenshot of the program running the toneinkey exercise."
+msgstr "Captura de pantalla del programa executant l'exercici to en la clau."
+
+#: help/C/tone-in-context.xml:15(para)
+msgid "Click <guibutton>New</guibutton> and the program will play some music, usually a cadence, followed by a tone. The user should find the tone's position in the key represented by the cadence and answer clicking the buttons labeled 1 to 7."
+msgstr "Cliqueu <guibutton>Nou</guibutton> i el programa reproduirà alguna música, generalment una cadència, seguida d'un to. L'usuari hauria de trobar la posició del to a la clau representada per la cadència i contestar clicant els botons etiquetats 1 a 7."
+
+#: help/C/solfege.xml:21(title)
+msgid "&app; &appversion; User Manual"
+msgstr "&app; &appversion; Manual d'usuari"
+
+#: help/C/solfege.xml:23(year) help/C/solfege.xml:32(year)
+msgid "2005"
+msgstr "2005"
+
+#: help/C/solfege.xml:27(year)
+msgid "2000"
+msgstr "2000"
+
+#: help/C/solfege.xml:28(year)
+msgid "2001"
+msgstr "2001"
+
+#: help/C/solfege.xml:29(year)
+msgid "2002"
+msgstr "2002"
+
+#: help/C/solfege.xml:30(year)
+msgid "2003"
+msgstr "2003"
+
+#: help/C/solfege.xml:31(year)
+msgid "2004"
+msgstr "2004"
+
+#: help/C/solfege.xml:33(year)
+msgid "2006"
+msgstr "2006"
+
+#: help/C/solfege.xml:34(year)
+msgid "2007"
+msgstr "2007"
+
+#: help/C/solfege.xml:35(year)
+msgid "2008"
+msgstr "2008"
+
+#: help/C/solfege.xml:36(year)
+msgid "2009"
+msgstr "2009"
+
+#: help/C/solfege.xml:37(year)
+msgid "2010"
+msgstr "2010"
+
+#: help/C/solfege.xml:52(para)
+msgid "Permission is granted to copy, distribute and/or modify this document under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version. The full text of the License is available in <xref linkend=\"gpl\"/>."
+msgstr "Es concedeix permís per copiar, distribuir i/o modificar aquest document sota els terminis de la Llicència Pública General GNU com està publicada per la Free Software Foundation; o bé la versió 3 de la llicència, o (sota la vostra opció) qualsevol versió posterior. El text complet de la llicència està disponible a  <xref linkend=\\\"gpl\\\"/>."
+
+#: help/C/solfege.xml:63(title)
+msgid "Introduction"
+msgstr "Introducció"
+
+#: help/C/solfege.xml:66(title)
+msgid "Welcome to GNU Solfege"
+msgstr "Us donem la benvinguda al GNU Solfege"
+
+#: help/C/solfege.xml:67(para)
+msgid "Solfege is a <ulink url=\"http://www.gnu.org/philosophy/free-sw.html\">free</ulink> eartraining program. The program is part of the <ulink url=\"http://www.gnu.org\">GNU Project</ulink>. Check <xref linkend=\"online-resources\"/> for info on mailinglists and where to get the latest version of Solfege."
+msgstr "El Solfege és un programa <ulink url=\"http://www.gnu.org/philosophy/philosophy.ca.html\">lliure</ulink> d'entrenament de l'oïda. El programa és part del <ulink url=\"http://www.gnu.org/gnu.ca.html\">Projecte GNU</ulink>. Mireu <xref linkend=\"online-resources\"/> per a informació sobre llistes de correu i on obtenir l'última versió del Solfege."
+
+#: help/C/solfege.xml:73(para)
+msgid "One of the ideas of this program is that you can extend the program without having to dig into the source code. If you for example want to practise some special chords, you can write a <link linkend=\"extending-solfege\">lesson file</link> yourself. Reading the files are pretty straight forward, and the recommended way to get started is to copy one of the existing files, and start modifying it. If you create good lesson files, you really should consider contributing them by sending them to the <link linkend=\"mailing-lists\">mailing list</link> so they can be added to the next version of this program."
+msgstr "Una de les idees d'aquest programa és que el podeu estendre sense haver d'endinsar-vos al codi font. Si voleu, per exemple, practicar alguns acords especials, podeu escriure una <link linkend=\"extending-solfege\">fitxer de lliçó</link>. La lectura dels fitxers és força fàcil, i la manera recomanada de començar és copiar un dels fitxers existents, i començar a modificar-lo. Si creeu bons fitxers de lliçó, hauria de realment considerar contribuir-los enviant-los a la <link linkend=\"mailing-lists\">llista de correu</link> perquè puguin afegir-se a la següent versió d'aquest programa."
+
+#: help/C/solfege.xml:102(title)
+msgid "Help sections for the exercises"
+msgstr "Seccions d'ajuda per als exercicis"
+
+#: help/C/singinterval.xml:2(title)
+msgid "Sing interval"
+msgstr "Interval de cant"
+
+#: help/C/singinterval.xml:10(phrase)
+msgid "Screenshot of the sing interval exercise."
+msgstr "Captura de pantalla per a l'exercici d'interval de cant."
+
+#: help/C/singinterval.xml:15(para)
+msgid "In this exercise, Solfege will display one or more intervals, and you should sing them. Unfortunately, it is not yet possible to sing into a microphone and let Solfege decide if you sing correct, so you have to decide yourself if you are correct or wrong."
+msgstr "En aquest exercici, el Solfege us mostrarà un o més intervals, i els hauríeu de cantar. Desafortunadament, no és encara possible cantar a un micròfon i que el Solfege decideixi si canteu correctament, així que heu de decidir vós mateix si canteu correctament o incorrecta."
+
+#: help/C/singinterval.xml:17(title) help/C/idtone.xml:65(title)
+msgid "Config"
+msgstr "Configuració"
+
+#: help/C/singinterval.xml:18(para)
+msgid "The program will try to make a question where all tones are within the range the user can sing, as configured in the <link linkend=\"preferences-window\">preferences window</link>. Sometimes, it is not possible to keep the question within this range, for example when the exercise is configured to create many intervals where all intervals go upwards."
+msgstr "El programa intentarà fer una pregunta on tots els tons estan dins d'un rang que l'usuari pot cantar, com estigui configurat a <link linkend=\"preferences-window\">finestra de preferències</link>. A vegades no és possible mantenir la pregunta dins d'aquest rang, per exemple quan l'exercici està configurat per crear molts intervals on tots els intervals van cap amunt."
+
+#: help/C/singchord.xml:2(title)
+msgid "Sing chord"
+msgstr "Canteu un acord"
+
+#: help/C/singchord.xml:11(phrase) help/C/idtone.xml:10(phrase)
+#: help/C/idproperty.xml:11(phrase) help/C/idbyname-intonation.xml:10(phrase)
+#: help/C/idbyname-chords.xml:10(phrase)
+#: help/C/elembuilder-harmonic-progressions.xml:10(phrase)
+msgid "Screenshot of the program."
+msgstr "Captura de pantalla del programa."
+
+#: help/C/singchord.xml:17(para)
+msgid "If you are conducting a choir, you have to sing the starting tones for the different voices, and if you don't have a piano near by, you have to use a tuning fork. If you are a male, you will sing the tones for the women, one octave deeper, and visa versa."
+msgstr "Si esteu conduint un cor, heu de cantar les notes inicials per a les diferents veus, i si no teniu un piano a prop, heu d'utilitzar un diapasó. Si sou un home, cantareu les note per a les dones una octava més a baix, i a l'inrevés."
+
+#: help/C/singchord.xml:22(para)
+msgid "The program will play the tone A (440 hz) for you, and display a chord that you must sing. Solfege does not yet have support for microphone, so you will have to decide yourself if your answer is correct or not."
+msgstr "El programa us tocarà la nota La (440 hz), i mostrarà un acord que heu de cantar. El Solfege encara no té suport per al micròfon, així que heu de decidir vós mateix si la vostra resposta és correcta o no."
+
+#: help/C/selecting-exercises.xml:2(title)
+msgid "Selecting exercises"
+msgstr "Selecció d'exercicis"
+
+#: help/C/selecting-exercises.xml:3(para)
+msgid "Selecting exercises works like navigating a web page and clicking on links. Press <keycombo><keycap>Alt</keycap><keycap>Left</keycap></keycombo> to move to the previous page or <keycap>F5</keycap> to move to the front page."
+msgstr "La selecció d'exercicis funciona com la navegació d'una pàgina web i els clics sobre enllaços. Premeu <keycombo><keycap>Alt</keycap><keycap>Esquerre</keycap></keycombo> per desplaçar-vos a la pàgina prèvia o <keycap>F5</keycap> per desplaçar-vos a la portada."
+
+#: help/C/scales.xml:2(title) help/C/music-theory.xml:4(title)
+msgid "Scales"
+msgstr "Escales"
+
+#: help/C/scales.xml:3(para)
+msgid "Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C). You can read about all the scales used in GNU Solfege <ulink url=\"scales/modes.html\">here</ulink>."
+msgstr "Les escales són una matèrica complicada. Per exemple l'escala lídia grega (Do-Re-Mi-Fa-Sol-La-Si-Do) és diferent de la lídia medieval i moderna (Do-Re-Mi-Fa#-Sol-La-Si-Do). Podeu llegir sobre totes les escales que s'usen al GNU Solfege <ulink url=\"scales/modes.html\">aquí</ulink>."
+
+#: help/C/scales.xml:6(para)
+msgid "Solfege has three variants of scale exercises so far."
+msgstr "El Solfege té tres variants d'exercicis d'escala fins ara."
+
+#: help/C/scales.xml:8(para)
+msgid "Solfege will play a scale, and you should identify the scale by clicking on the button with the scale name."
+msgstr "El Solfege tocarà una escala, i hauríeu d'identificar l'escala clicant sobre el botó del seu nom."
+
+#: help/C/scales.xml:11(para)
+msgid "Solfege will play a scale, and you should identify the structure of the scale. You will be presented a collection of buttons labeled with a number of '1', '2' and '3'. These numbers represent the intervals minor second, major second and minor third that are between the tones of the scale."
+msgstr "El Solfege tocarà una escala, i hauríeu d'identificar l'estructura de l'escala. Se us presentarà una col·lecció de botons etiquetats amb un nombre de «1», «2» o «3». Aquests nombres representen els intervals menor segona, major segona i menor tercera que estan entre els tons de l'escala."
+
+#: help/C/scales.xml:12(para)
+msgid "Solfege will play a scale, and you should identify the grade. For example may Solfege take the natural minor scale, and play it from any of the tones one the scale, and you must tell which tone it starts on."
+msgstr "El Solfege tocarà una escala, i hauríeu d'identificar el grau. Per exemple el Solfege podria tocar l'escala menor natural, tocar-la des de qualssevol des tons u de l'escala i hauríeu de dir de quin to comença."
+
+#: help/C/rhythm.xml:2(title)
+msgid "Rhythm"
+msgstr "Ritme"
+
+#: help/C/rhythm.xml:10(phrase)
+msgid "Screenshot of the program running the chord exercise."
+msgstr "Captura de pantalla del programa executant l'exercici d'acord."
+
+#: help/C/rhythm.xml:16(para)
+msgid "The program play a randomly generated rhythm, and the user should reproduce the rhythm. The user enters the rhythm by clicking on buttons representing different rhythmic elements."
+msgstr "El programa toca un ritme generat aleatòriament, i l'usuari hauria de reproduir el ritme. L'usuari entra el ritme clicant els botons que representen diferents elements rítmics."
+
+#: help/C/rhythm.xml:20(para)
+msgid "When you have entered enough rhythm elements, Solfege will check your answer. If everything is correct it will display a happy face, otherwise a sad face, and all wrong rhythms will be marked."
+msgstr "Quan hàgiu entrat prou elements rítmics, el Solfege verificarà la vostra resposta. Si tot és correcte mostrarà un cara feliç, en cas contrari una cara trista, i es marcaran tots els tons incorrectes."
+
+#: help/C/rhythm.xml:24(para)
+msgid "If some of your answer was wrong, everything from the first wrong element will be removed (preserving any correct rhythms in the beginning of your answer) when you click on the sad face, or when you click on the rhythm buttons on top of the page."
+msgstr "Si algunes de les vostres respostes són incorrectes, s'eliminarà tot des del primer element incorrecte (preservant tots els ritmes correctes al principi de la vostra resposta) quan cliqueu sobre la cara trista, o quan cliqueu sobre els botons de ritme a la part superior de la pàgina."
+
+#: help/C/rhythm.xml:29(para)
+msgid "You can click the 'Play' button to hear your suggestion."
+msgstr "Podeu clicar el botó «Reprodueix» per escoltar el vostre suggeriment."
+
+#: help/C/rhythm.xml:31(para)
+msgid "The questions made by this exercise are at the moment made by selecting rhythm elements randomly. This is not the best way to do it, and we hope a more clever way of generating questions will be made in a later release."
+msgstr "Les preguntes que fa aquest exercici es fan en aquest moment seleccionant els elements rítmics aleatòriament. Aquesta no és la millor manera de fer-lo, i esperem que hi haurà una manera més intel·ligent de generar preguntes a una versió futura."
+
+#: help/C/rhythmtapping2.xml:2(title)
+msgid "Tap the rhythm"
+msgstr "Copegeu el ritme"
+
+#: help/C/rhythmtapping2.xml:10(phrase)
+msgid "Screenshot of the rhythmtapping."
+msgstr "Captura de pantalla del copeig de ritme."
+
+#: help/C/rhythmtapping2.xml:15(para)
+msgid "The program will play a randomly generated rhythm, and the user should reproduce the rhythm. The user enters the rhythm by tapping on the button labeled <emphasis>Tap here</emphasis>."
+msgstr "Aquest programa tocarà un ritme generat aleatòriament, i l'usuari hauria de reproduir el ritme. L'usuari entra el ritme copejant sobre el botó etiquetat <emphasis>Copegeu aquí</emphasis>."
+
+#: help/C/profile-manager.xml:2(title)
+msgid "Profile Manager"
+msgstr "Gestor de perfils"
+
+#: help/C/profile-manager.xml:12(para)
+msgid "The profile manager let multiple Solfege users share a login on your operating system. The profiles will share the config file, but they will have separate statistics and test results."
+msgstr "El gestor de perfils permet que usuaris múltiples del Solfege compateixin una sessió d'usuari al vostre sistema operatiu. Els perfils compartiran el fitxer de configuració, però tindran estadístiques separades i resultats dels tests separats."
+
+#: help/C/profile-manager.xml:17(para)
+msgid "The profile manager will display at program startup if more than one profile exists. You can also access the profile manager by selecting <guimenuitem>Profile Manager</guimenuitem> from the <guimenu>File</guimenu>."
+msgstr "El gestor de perfils mostrarà a l'inici del programa si hi ha més d'un perfil. També podeu accedir el gestor de perfils seleccionant <guimenuitem>Gestor de perfils</guimenuitem> des del menú <guimenu>Fitxer</guimenu>."
+
+#: help/C/profile-manager.xml:23(para)
+msgid "Check <emphasis>Don't ask at startup</emphasis> if you don't want to see the profile manager at startup. It will then remember the last profile selected when you close the profile manager and start the program with that profile."
+msgstr "Marqueu <emphasis>No preguntis a l'inici</emphasis> si no voleu veure el gestor de perfils a l'inici. En aquest cas recordarà l'últim perfil seleccionat quan tanqueu el gestor de perfils i inicieu el programa amb aquest perfil."
+
+#: help/C/preferences-window.xml:2(title)
+msgid "Preferences window"
+msgstr "Finestra de preferències"
+
+#: help/C/preferences-window.xml:4(title)
+msgid "Instruments"
+msgstr "Instruments"
+
+#: help/C/preferences-window.xml:12(phrase)
+msgid "Screenshot of the 'Midi' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Midi» de la pàgina de preferències."
+
+#: help/C/preferences-window.xml:18(title)
+msgid "Tempo"
+msgstr "Tempo"
+
+#. translators: don't translate the module names in this paragraph.
+#: help/C/preferences-window.xml:20(para)
+msgid "Set the tempo (beats per minute) for music and arpeggios. These values are used by exercises written with these exercise modules: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal>, <literal>nameinterval</literal>. Other exercises will either have the tempo set in the lesson file or on the config page of the exercise."
+msgstr "Estableix el tempo (pulsacions per minut) per a la música i els arpegis. Aquests valors s'usen pels exercicis escrits amb aquests mòduls d'exercicis: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal>, <literal>nameinterval</literal>. D'altres exercicis tindran el tempo establert al fitxer de lliçó o a la pàgina de configuració de l'exercici."
+
+#: help/C/preferences-window.xml:37(title)
+msgid "Preferred instrument"
+msgstr "Instrument preferit"
+
+#: help/C/preferences-window.xml:38(para)
+msgid "Set the midi instrument and volume used for most exercises."
+msgstr "Estableix l'instrument midi i el volum usat per la major part dels exercicis."
+
+#: help/C/preferences-window.xml:41(title)
+msgid "Chord instruments"
+msgstr "Instruments d'acord"
+
+#: help/C/preferences-window.xml:42(para)
+msgid "Solfege can use three different instruments when playing chords. One for the highest tone, one for the tones in the middle and one for the bass tone. This can be helpful if you find it difficult to hear individual tones in chords."
+msgstr "El Solfege pot usar tres instruments diferents quan toca acords. Un per al to més alt, un altre per als tons al mig i un per al to baix. Això pot ser útil si us resulta difícil escoltar tons individuals als acords."
+
+#: help/C/preferences-window.xml:48(title)
+msgid "Preferred percussion instruments"
+msgstr "Instruments de percussió preferits"
+
+#: help/C/preferences-window.xml:49(para)
+msgid "Set the percussion instrument used for count-in before rhythm questions, and the instrument used to play the question."
+msgstr "Estableix l'instrument de percussió usat per al compte inicial abans de les preguntes de ritme, i l'instrument usat per tocar la pregunta."
+
+#: help/C/preferences-window.xml:57(title)
+msgid "User"
+msgstr "Usuari"
+
+#: help/C/preferences-window.xml:65(phrase)
+msgid "Screenshot of the 'User' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Usuari» de la finestra de preferències."
+
+#: help/C/preferences-window.xml:71(para)
+msgid "Solfege uses this info in some exercises where the user is supposed to sing."
+msgstr "El Solfege usa aquesta informació a alguns exercicis on s'espera que l'usuari canti."
+
+#: help/C/preferences-window.xml:73(title)
+msgid "Lowest/highest tone the user can sing"
+msgstr "To més alt/baix que pot cantar l'usuari"
+
+#: help/C/preferences-window.xml:74(para)
+msgid "These spin buttons tell Solfege the highest and lowest tone the user can sing. These values are only considered advisory by the program. If for example the values are set to <literal>c</literal> to <literal>c'</literal> and you have configured the program to ask you to sing minor and major tenths, you will have to sing tones outside this range."
+msgstr "Aquests botons regulables li diuen al Solfege el to més alt i més baix que l'usuari pot cantar. Aquests valors sols es consideren aconsellables per al programa. Si, per exemple, aquests valors s'estableixen a <literal>c</literal>  a <literal>c'</literal> i heu configurat el programa perquè us demani cantar desenes menors i majors, haureu de cantar tons fora d'aquest rang."
+
+#: help/C/preferences-window.xml:81(title)
+msgid "Sex"
+msgstr "Sexe"
+
+#: help/C/preferences-window.xml:82(para)
+msgid "Solfege need to know if the user is male or female when creating some of the questions where the user will sing the answer. This because the male voice sound one octave lower than the female voice."
+msgstr "Al Solfege li cal saber si l'usuari és home o dona quan crea preguntes on l'usuari cantarà la resposta. Això és perquè la veu masculina sona una octava més baixa que la veu femenina."
+
+#: help/C/preferences-window.xml:89(title)
+msgid "External programs"
+msgstr "Programes externs"
+
+#: help/C/preferences-window.xml:97(phrase)
+msgid "Screenshot of the 'External programs' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Programes externs» de la finestra de preferències."
+
+#: help/C/preferences-window.xml:103(para)
+msgid "Solfege will search the PATH for the programs you enter on this page. So you only have to enter the full path if the programs are installed outside the PATH. A warning sign after the entry where you enter the file name mean that the program is not found."
+msgstr "El Solfege buscarà el camí PATH per al programes que entreu a aquesta pàgina. Així sols heu d'entrar el camí complet si els programes estan instal·lats fora del camí PATH. Un signe d'advertiment després de l'entrada on entreu el nom de fitxer significa que no s'ha trobat el programa."
+
+#: help/C/preferences-window.xml:108(para)
+msgid "Please check the download page on <ulink url=\"http://www.solfege.org\">www.solfege.org</ulink> for up-to-date tips and download links if you run MS Windows and have to download and install the programs yourself."
+msgstr "Si us plau verifiqueu la pàgina de descàrrega a <ulink url=\"http://www.solfege.org\">www.solfege.org</ulink> per a consells actualitzats i enllaços de descàrrega si useu MS Windows i heu de descarregar i instal·lar el programa vós mateix."
+
+#: help/C/preferences-window.xml:115(title)
+msgid "Converters"
+msgstr "Convertidors"
+
+#: help/C/preferences-window.xml:116(para)
+msgid "Give command lines that can convert between different audio formats. <literal>%(in)s</literal> will be replaced with the name of the file we convert from, and <literal>%(out)s</literal> with the name we convert to. It is not necessary to enter <literal>%(out)s</literal> if the program automatically saved to a new file with the correct file extension."
+msgstr "Entreu ordres de la línia d'ordres que poden convertir entre diferents formats d'àudio. <literal>%(in)s</literal> serà reemplaçat amb el nom el fitxer del qual convertim, i <literal>%(out)s</literal> amb el nom al qual convertim. No és necessari entrar <literal>%(out)s</literal> si el programa va desar automàticament amb l'extensió de fitxer correcta."
+
+#: help/C/preferences-window.xml:124(title)
+msgid "Audio players"
+msgstr "Reproductors d'àudio"
+
+#: help/C/preferences-window.xml:125(para)
+msgid "Command lines that can play different audio formats. <literal>%s</literal> will be replaced with the name of the file to be played. The file name will be appended to the end of the string if you do not include a <literal>%s</literal>."
+msgstr "Ordres de la línia d'ordres que poden reproduir diferents formats d'àudio. <literal>%s</literal> es reemplaçarà amb el nom del fitxer que es reproduirà. El nom del fitxer s'annexarà al final de la cadena de caràcters si no incloeu una <literal>%s</literal>."
+
+#: help/C/preferences-window.xml:133(title)
+msgid "Miscellaneous"
+msgstr "Miscel·lània"
+
+#: help/C/preferences-window.xml:134(para)
+msgid "A few exercises make use of the programs CSound and MMA. Lilypond-book is required to make ear training test printouts, and latex is required if the printout should be created in dvi format. Without latex, you can still create html output."
+msgstr "Alguns exercicis fan us dels programes CSound i MMA. Cal el Lilypond-book per fer fulls impresos  d'entrenament de l'oïda, i es requereix el latex si s'hauria de crear la impressió amb el format dvi. Sense latex, encara podeu crear sortida html."
+
+#: help/C/preferences-window.xml:140(para)
+msgid "If the file entered is a file ending with <literal>.py</literal>, then the script will be run by the same python interpreter as Solfege itself."
+msgstr "Si el fitxer entrat és un fitxer acabant amb <literal>.py</literal>, aleshores l'script s'executarà amb el mateix intèrpret del python que el propi Solfege."
+
+#: help/C/preferences-window.xml:147(title)
+msgid "Interface"
+msgstr "Interfície"
+
+#: help/C/preferences-window.xml:155(phrase)
+#: help/C/preferences-window.xml:176(phrase)
+#: help/C/preferences-window.xml:202(phrase)
+msgid "Screenshot of the 'Interface' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Interfície» de la finestra de preferències."
+
+#: help/C/preferences-window.xml:161(para)
+msgid "Resizeable main window: Allow the user to resize the main solfege window."
+msgstr "Finestra principal redimensionable: Permet que l'usuari canviï la mida de la finestra principal del Solfege."
+
+#: help/C/preferences-window.xml:163(para)
+msgid "Select language: You can manually select the language you want if Solfege does not detect this correctly, or if you want to run Solfege with a different language that your operating system."
+msgstr "Seleccioneu la llengua: Podeu seleccionar manualment la llengua que voleu si el Solfege no la detecta corectament, o si voleu executar el Solfege amb una llengua diferent al vostre sistema operatiu."
+
+#: help/C/preferences-window.xml:168(title)
+msgid "Identify tone keyboard accelerators"
+msgstr "Acceleradors de teclat dels identificadors de tons"
+
+#: help/C/preferences-window.xml:181(para)
+msgid "Here you can change the keyboard accelerators for the «Identify tone» exercise. Click on a row to select the tone you want to change the accelerator for, then click again on the second column of the row. Finally you can press the key you want to set as the accel for the tone."
+msgstr "Aquí podeu canviar els acceleradors de teclat de l'exercici «Identifiqueu el to». Cliqueu sobre una fila per triar el to per al qual voleu canviar l'accelerador, cliqueu un altre cop a la segona columna de la fila. Finalment podeu prémer la tecla que voleu establir com l'accelerador per al to."
+
+#: help/C/preferences-window.xml:187(para)
+#: help/C/preferences-window.xml:214(para)
+msgid "The «Dvorak» and «ASCII» buttons will set the accelerators to the default values for Dvorak and ASCII keyboards."
+msgstr "Els botons «Dvorak» i «ASCII» establiran els acceleradors als valors predeterminats per als teclats Dvorak i ASCII."
+
+#: help/C/preferences-window.xml:194(title)
+msgid "Interval keyboard accelerators"
+msgstr "Acceleradors de teclat per als intervals"
+
+#: help/C/preferences-window.xml:207(para)
+msgid "Here you can change the keyboard accelerators for the interval exercises, like the «Harmonic interval» and «Melodic interval» exercises. Click on a row to select the tone you want to change the accelerator for, then click again on the second column of the row. Finally you can press the key you want to set as the accel for the tone."
+msgstr "Aquí podeu canviar els acceleradors de teclat per als exercicis d'intervals, com ara els exercicis «Interval harmòni» i «Interval melòdic». Cliqueu sobre una fila per selecionar el to per al qual voleu canviar l'accelerador, cliqueu un altre cop a la segona columna de la fila. Finalmente podeu prémer la tecla que voleu establir com l'accelerador del to."
+
+#: help/C/preferences-window.xml:223(title)
+msgid "Practise"
+msgstr "Pràctica"
+
+#: help/C/preferences-window.xml:231(phrase)
+msgid "Screenshot of the 'Practise' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Pràctica» de la finestra de preferències."
+
+#: help/C/preferences-window.xml:236(para)
+msgid "Not allow new question before the old is solved: Disable the 'new' button until the question is answered correctly or the user clicks \"give up\"."
+msgstr "No permetis una pregunta nova fins que l'antiga s'hagi resolt: Desactiva el botó «nou» fins que la pregunta es respongui correctament o l'usuari cliqui «Em rendeixo»."
+
+#: help/C/preferences-window.xml:237(para)
+msgid "Repeat question if the answer was wrong: Play the sound again when the user gives an incorrect answer."
+msgstr "Repeteix la pregunta si la resposta és incorrecta: Reprodueix el so un altre cop quan l'usuari dóna una resposta incorrecta."
+
+#: help/C/preferences-window.xml:238(para)
+msgid "Expert mode: Enabling this option in exercises using the <link linkend=\"idbyname-module\">idbyname</link> and <link linkend=\"idproperty-module\">idproperty</link> modules will let you select to practise only a subset of the questions in the lesson file. Practising with expert mode enabled will not save any statistics."
+msgstr "Mode expert: Si s'activa aquesta opció als exercicis usant els mòduls <link linkend=\"idbyname-module\">idbyname</link> i <link linkend=\"idproperty-module\">idproperty</link> us deixarà seleccionar practicar sols un subconjunt de les preguntes del fitxer de lliçó. Si es practica amb el mode expert activat no es desarà cap estadística."
+
+#: help/C/preferences-window.xml:247(title)
+msgid "Sound setup"
+msgstr "Configuració del so"
+
+#: help/C/preferences-window.xml:255(phrase)
+#: help/C/preferences-window.xml:320(phrase)
+msgid "Screenshot of the 'Sound setup' page of the preferences window."
+msgstr "Captura de pantalla de la pàgina «Configuració del so» de la finestra de preferències."
+
+#: help/C/preferences-window.xml:267(phrase)
+msgid "Screenshot of the 'Sound setup' page of the preferences window, running on MS Windows XP."
+msgstr "Captura de pantalla de la pàgina «Configuració del so» de la finestra de preferències, executant-se a MS Windows XP."
+
+#: help/C/preferences-window.xml:273(title)
+msgid "Midi setup"
+msgstr "Configuració del Midi"
+
+#: help/C/preferences-window.xml:275(title)
+msgid "The exercises that generate sound have several ways to play sound:"
+msgstr "Els exercicis que generen so tenen moltes maneres de reproduir so:"
+
+#: help/C/preferences-window.xml:277(term)
+msgid "No sound:"
+msgstr "Sense so:"
+
+#: help/C/preferences-window.xml:279(para)
+msgid "Use this for debugging or when you are porting Solfege. No sounds are played, the midi events are printed to stdout."
+msgstr "Useu això per la depuració o quan esteu portant el Solfege. No es reprodueixen sons, els esdeveniments midi s'escriuen al stdout."
+
+#: help/C/preferences-window.xml:283(term)
+msgid "Use ALSA device"
+msgstr "Usa el dispositiu ALSA"
+
+#: help/C/preferences-window.xml:285(para)
+msgid "If you have the Python modules for ALSA installed, you can use the ALSA sequencer. If your operating system is GNU/Linux, you have a menu item on the Help menu that can download and compile the modules for you."
+msgstr "Si teniu els mòduls del Phython per a ALSA instal·lats, podeu usar el seqüenciador ALSA. Si el vostre sistema operatiu és GNU/Linux, teniu un element de menú al menú d'ajuda que us pot descarregar i compilar els mòduls."
+
+#: help/C/preferences-window.xml:291(term)
+msgid "Use device:"
+msgstr "Usa el dispositiu:"
+
+#: help/C/preferences-window.xml:293(para)
+msgid "The best choice here is usually <filename>/dev/music</filename> because it has the best support for percussion instruments. <filename>/dev/sequencer2</filename> is usually a symbolic link to <filename>/dev/music</filename>. If your system don't have <filename>/dev/music</filename>, you can create it with this command as root (if you run the linux kernel version 2.2 or later):"
+msgstr "La millor opció aquí és generalment <filename>/dev/music</filename> perquè té el millor suport per a instruments de percussió. <filename>/dev/sequencer2</filename> és generalment un enllaç símbolic a <filename>/dev/music</filename>. Si el vostre sistema no té <filename>/dev/music</filename>, el podeu crear amb aquesta ordre com a root (si executeu el nucli de linux versió 2.2 o posterior):"
+
+#: help/C/preferences-window.xml:298(para)
+msgid "cd /dev mknod music u 14 8"
+msgstr "cd /dev mknod music u 14 8"
+
+#: help/C/preferences-window.xml:299(para)
+msgid "On MS Windows this choice is labeled <literal>Windows multimedia output</literal>."
+msgstr "Al MS Windows aquesta opció té l'etiqueta <literal>Sortida multimèdia del Windows</literal>."
+
+#: help/C/preferences-window.xml:303(term)
+msgid "Use external midiplayer:"
+msgstr "Usa el reprodcutor de midi extern:"
+
+#: help/C/preferences-window.xml:305(para)
+msgid "This can be useful when porting to systems that don't use OSS, or if you have a bad midi synth on your soundcard and want to use timidity."
+msgstr "Això pot ser útil quan s'està portant a sistemes que no usen l'OSS, o si teniu un sintetitzador midi dolent a la targeta de so i voleu usar el timidity."
+
+#: help/C/preferences-window.xml:312(title)
+#: help/C/preferences-window.xml:335(title)
+msgid "Statistics"
+msgstr "Estadístiques"
+
+#: help/C/preferences-window.xml:326(title)
+msgid "Statistics from 3.15 and older"
+msgstr "Estadístiques des de 3.15 o posterior"
+
+#: help/C/preferences-window.xml:327(para)
+msgid "Versions of Solfege before 3.16.0 saved statistics in many small files. Solfege 3.16.0 and newer will import these files into the new database file the first time the program is run, but it will leave the old files on your computer. It is safe to delete these files after you have run solfege 3.16.0 or newer once. The files are stored in the <literal>statistics</literal> directory of the <emphasis>application data</emphasis> directory."
+msgstr "Les versions del Solfege anteriors a la 3.16.0 desaven les estadístiques a molts fitxers petits. El Solfege 3.16.0 i més nou importarà aquests fitxers a la nova base de dades el primer cop que s'executi el programa, però deixarà els fitxers antics al vostre ordinador. És segur eliminar aquests fitxers després que heu executat el Solfege 3.16.0 o més nou. Els fitxers s'emmagatzemen al directori <literal>statistics</literal> del directori <literal>applicaction data</emphasis>."
+
+#: help/C/preferences-window.xml:336(para)
+msgid "Statistics are now saved in a file <literal>statistics.sqlite</literal> in the <emphasis>application data</emphasis> directory. The exact location of the directory can be found by selecting <guimenuitem>File Locations</guimenuitem> on the <guimenu>Help</guimenu> menu. Click <guibutton>Delete</guibutton> to reset you statistics and start with an empty <literal>statistics.sqlite</literal> file."
+msgstr "Les estadístiques es desen ara a un fitxer <literal>statistics.sqlite</literal> al directori <emphasis>application data</emphasis>. La ubicació exacta del directori es pot trobar seleccionant <guimenuitem>Ubicacions de fitxers</guimenuitem> al menú <guimenu>Ajuda</guimenu>. Cliqueu <guibutton>Esborra</guibutton> per restablir les vostres estadístiques i iniciar amb un fitxer <literal>statistics.sqlite</literal> buit."
+
+#: help/C/online-resources.xml:2(title)
+msgid "Online resources"
+msgstr "Recursos en línia"
+
+#: help/C/online-resources.xml:3(para)
+msgid "The homepage for Solfege is <ulink url=\"http://www.solfege.org\">http://www.solfege.org</ulink>. There is also a smaller page with more static info at <ulink url=\"http://www.gnu.org/software/solfege/\">http://www.gnu.org/software/solfege/</ulink>."
+msgstr "La pàgina web del Solfege és <ulink url=\"http://www.solfege.org\">http://www.solfege.org</ulink>. També hi ha una pàgina més petita amb més informació estàtica a <ulink url=\"http://www.gnu.org/software/solfege/\">http://www.gnu.org/software/solfege/</ulink>."
+
+#: help/C/online-resources.xml:5(title)
+msgid "Download Solfege"
+msgstr "Descarrega el Solfege"
+
+#: help/C/online-resources.xml:6(para)
+msgid "The source code is available from <ulink url=\"http://ftp.gnu.org/gnu/solfege\">http://ftp.gnu.org/gnu/solfege</ulink>. If you are adventurous, you can try the unstable (buggy, but might contain new stuff) releases from <ulink url=\"http://alpha.gnu.org/gnu/solfege\">http://alpha.gnu.org/gnu/solfege</ulink>. These releases might have more bugs, but then you get the chance to try new stuff and find and report bugs."
+msgstr "El codi font està disponible a <ulink url=\"http://ftp.gnu.org/gnu/solfege\">http://ftp.gnu.org/gnu/solfege</ulink>. Si us agrada l'aventura, podeu provar les versions inestables (amb errors, però potser conté nou material) de <ulink url=\"http://alpha.gnu.org/gnu/solfege\">http://alpha.gnu.org/gnu/solfege</ulink>. Aquestes versions potser tenen més errors, però aleshores teniu l'oportunitat de provar nou material i trobar i informar d'errors."
+
+#: help/C/online-resources.xml:7(para)
+msgid "Source code and some precompiled binaries are available from <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=1465\">http://sourceforge.net/project/showfiles.php?group_id=1465</ulink>."
+msgstr "El codi font i alguns binaris precompilats estan disponibles a <ulink url=\"http://sourceforge.net/project/showfiles.php?group_id=1465\">http://sourceforge.net/project/showfiles.php?group_id=1465</ulink>."
+
+#: help/C/online-resources.xml:8(para)
+msgid "If you run Debian you can <userinput>apt-get install solfege</userinput> to download and install the program."
+msgstr "Si useu el Debian podeu fer <userinput>apt-get install solfege</userinput> per descarregar i instal·lar el programa."
+
+#: help/C/online-resources.xml:11(title)
+msgid "Mailing lists"
+msgstr "Llistes de correu"
+
+#: help/C/online-resources.xml:14(para)
+msgid "Very low traffic, moderated and will be used to announce stable releases of Solfege. (<ulink url=\"http://lists.sourceforge.net/mailman/listinfo/solfege-announce\">Subscription</ulink> | <ulink url=\"http://sourceforge.net/mailarchive/forum.php?forum_id=7332\">Archive</ulink>)"
+msgstr "Amb tràfic molt reduït, moderada i s'usarà per anunciar l'alliberament de versions estables del Solfege. (<ulink url=\"http://lists.sourceforge.net/mailman/listinfo/solfege-announce\">Subscripció</ulink> | <ulink url=\"http://sourceforge.net/mailarchive/forum.php?forum_id=7332\">Arxiu</ulink>)"
+
+#: help/C/online-resources.xml:18(para)
+msgid "If you want to report problems installing or running Solfege, or have questions, comments or ideas on how to improve Solfege, please post to this list instead of using the message forum at Sourceforge or the author directly. You can post to solfege-devel without subscribing. (<ulink url=\"http://lists.sourceforge.net/mailman/listinfo/solfege-devel\">Subscription</ulink> | <ulink url=\"http://sourceforge.net/mailarchive/forum.php?forum_id=3968\">Archive</ulink>)"
+msgstr "Si voleu informar de problemes quan instal·leu o executeu el Solfege, o teniu preguntes, comentaris o idees sobre com millorar el Solfege, si us plau publiqueu a aquesta llista en comptes d'usar el fòrum de missatges a Sourceforge o escriure a l'autor directament. Podeu escriure a solfege-devel sense subscriure-us. (<ulink url=\"http://lists.sourceforge.net/mailman/listinfo/solfege-devel\">Subscripció</ulink> | <ulink url=\"http://sourceforge.net/mailarchive/forum.php?forum_id=3968\">Arxiu</ulink>)"
+
+#: help/C/online-resources.xml:22(para)
+msgid "The standard GNU address to send bug reports. This list is at the moment forwarded to <email>solfege-devel@lists.sourceforge.net</email>"
+msgstr "L'adreça GNU estàndard per enviar informes d'errors. En aquest moment aquesta llista es reenvia a <email>solfege-devel@lists.sourceforge.net</email>"
+
+#: help/C/nameinterval.xml:2(title)
+msgid "Name intervals"
+msgstr "Anomena els intervals"
+
+#: help/C/nameinterval.xml:10(phrase) help/C/melodicinterval.xml:10(phrase)
+#: help/C/interval-config-help.xml:16(phrase)
+#: help/C/harmonicinterval.xml:10(phrase)
+msgid "Screenshot of the program practising intervals using the buttons interface."
+msgstr "Captura de pantalla del programa practicant intervals usant la interfície de botons."
+
+#: help/C/nameinterval.xml:16(para)
+msgid "In this exercise, Solfege will display and play an interval, and you should identify the interval. This is a music theory exercise, and not an ear training exercise. To learn how to name intervals you should read <xref linkend=\"theory-intervals\"/>."
+msgstr "En aquest exercici el Solfege mostrarà i reproduirà un interval, i hauríeu d'identificar l'interval. Aquest és un exercici teòric de música, i no un exercici d'entrenament de l'oïda. Per aprendre com anomenar intervals hauríeu de llegir <xref linkend=\"theory-intervals\"/>."
+
+#: help/C/nameinterval.xml:22(para)
+msgid "You identify the interval by clicking on one button telling the specific name and the general name."
+msgstr "Identifiqueu l'interval clicant sobre un botó indicant el nom específic i el nom general."
+
+#: help/C/music-theory.xml:2(title)
+msgid "Music theory"
+msgstr "Teoria musical"
+
+#: help/C/music-theory.xml:5(para)
+msgid "Davide Bonetti has contributed a large set of scale exercises and some pages describing all the scales. You can see the pages <ulink url=\"../C/scales/modes.html\">here</ulink>."
+msgstr "Davide Bonetti ha contribuït un conjunt gran d'exercicis d'escales i algunes pàgines de descripció de les escales. Podeu veure les pàgines <ulink url=\"../C/scales/\"\"modes.html\">aquí</ulink>."
+
+#: help/C/music-theory.xml:10(title)
+msgid "Intervals"
+msgstr "Intervals"
+
+#: help/C/music-theory.xml:11(para)
+msgid "In music theory we use the word interval when we talk about the pitch difference between two notes. We call them harmonic intervals if two tones sound simultaneously and melodic intervals if they sound successively."
+msgstr "A la teoria musical usem la paraula interval quan parlem sobre la diferència de tonalitat entre dues notes. Els anomenem intervals harmònics si dos tons sonen simultàniament i intervals melòdics si sonen en successió."
+
+#. translators: This paragraph is messy because the author is writing
+#. in english, and english is not his mother language. Write this paragraph
+#. so that is as clear and simple as possible, describing only what is relevant
+#. for your language
+#: help/C/music-theory.xml:20(para)
+msgid "Interval names consist of two parts. Some examples are \"major third\" and \"perfect fifth\". In Walter Piston's \"Harmony\" the two parts are called <emphasis>the specific name</emphasis> and <emphasis>the general name</emphasis> part. Wikipedia talks about <emphasis>interval quality</emphasis> and <emphasis>interval number</emphasis>. I have seen people talking about an interval's <emphasis>numerical size</emphasis>."
+msgstr "Els noms dels intervals consisteixen de dues parts. En són exemples «tercera major» i «cinquena perfecta». A l'«Harmonia» del Walter Piston les dues parts s'anomenen la part del <emphasis>nom general</emphasis> i la part del <emphasis>nom específic</emphasis>. La Viquipèdia parla sobre el <emphasis>número d'interval</emphasis> i la <emphasis>qualitat de l'interval</emphasis>. He vist també a gent que parla de la <emphasis>mida numèrica</emphasis> d'un interval."
+
+#: help/C/music-theory.xml:27(para)
+msgid "You find the general name by counting the steps on the staff, ignoring any accidentals. So if the interval you want to name goes from E to G#, then we count to 3 (E F G) and see that the general name is <emphasis>third</emphasis>."
+msgstr "Podeu trobar el nom general comptant els passos al pentagrama, ignorant totes les alteracions. Així, si l'interval que voleu anomenar va de Mi a Sol#, aleshores comptem 3 (Mi Fa Sol) i mirem que el nom general és <emphasis>tercera</emphasis>."
+
+#: help/C/music-theory.xml:40(para)
+msgid "The specific name tells the exact size of the interval. Unisons, fourths, fifths and octaves can be diminished, pure or augmented. Seconds, thirds, sixths and sevenths can be minor, major, diminished or augmented. A minor interval is one semitone smaller than a major interval. A diminished interval is one semitone smaller than a pure or a minor interval, and an augmented interval is one semitone larger than a pure or major interval."
+msgstr "El nom específic indica la mida exacta de l'interval. Els unísons, quartes, quintes i octaves poden ser disminuïdes, pures o augmentades. Les segones, terceres, sextes o setenes poden ser menors, majors, disminuïdes o augmentades. Un interval menor és un semitò més petit que un interval major. Un interval disminuït és un semitò més petit que un interval pur o menor, i un interval augmentat és un semitò més gran que un interval pur o major."
+
+#: help/C/music-theory.xml:48(para)
+msgid "Accidentals change the size of intervals. The interval becomes one semitone larger if you add a sharp to the highest tone or a flat to the lowest tone. And it becomes one semitone smaller if you add a flat to the highest tone or a sharp to the lowest tone. In the following sections naming of the intervals will be shown in greater detail."
+msgstr "Les alteracions canvien la mida dels intervals. L'interval esdevé un semitò més gran si afegiu un sostingut al to més alt o un bemoll al to més baix. I esdevé un semitò més petit si afegiu un bemoll al to més alt o un sostingut al to més baix. Es mostrarà el nomenament d'intervals amb més detall a les properes seccions."
+
+#: help/C/music-theory.xml:57(title)
+msgid "Seconds"
+msgstr "Segones"
+
+#: help/C/music-theory.xml:58(para)
+msgid "Seconds are easy to recognise: the two notes are neighbours on the staff. One note is on a staff line, and the other one is in the space above or below. A minor second is one semitone step, also called a half step. A major second is two semitone steps, also called a whole step."
+msgstr "Les segones són fàcils de reconèixer: les dues notes són veïnes al pentagrama. Una nota està a la línia del pentagrama, i l'altra està un espai a sobre o a sota. Una segona menor és un pas d'un semitò també anomenat mig pas Una segona major és un pas de dos semitons, també anomenat un pas sencer."
+
+#: help/C/music-theory.xml:63(para)
+msgid "To learn to identify seconds, you first have to learn which seconds there are between the natural tones. As you can see in <xref linkend=\"theory-intervals-seconds\"/>, only the intervals E-F and B-C are minor seconds. The rest are major intervals. You can check that <xref linkend=\"theory-intervals-seconds\"/> is correct by looking at a piano. You will see that there are no black keys between E and F and between B and C."
+msgstr "Per aprendre a identificar segones, primer heu d'aprendre quines segones hi ha entre els tons naturals. Com podeu veure a <xref linkend=\"theory-intervals\"/> sols els intervals Mi-Fa i Si-Doc són menors segones. La resta són intervals majors. Podeu verificar que <xref linkend=\"theory-intervals-seconds\"/> és correcte mirant a un piano. Veureu que no hi ha tecles negres entre Mi i Fa i entre Si i Do."
+
+#: help/C/music-theory.xml:79(para)
+msgid "If the second has accidentals, then we have to examine them to find out how they change the size of the interval. Let us identify a few intervals!"
+msgstr "Si la segona té alteracions, aleshores hem d'examinar-les per esbrinar com canvien la mida de l'interval. Identifiquem uns quants intervals!"
+
+#: help/C/music-theory.xml:92(para)
+msgid "We remove the accidental from the interval in <xref linkend=\"theory-intervals-seconds-1\"/> and see that the interval F-G is a major second. When we add the flat to the highest tone, the interval becomes one semitone smaller, turning into a minor second."
+msgstr "Eliminem l'alteració de l'interval a <xref linkend=\"theory-intervals-seconds\"/> i veiem que l'interval Fa-Sol és una segona major. Quan afegim el bemoll a la nota més alta, l'interval esdevé un semitò més petit, convertint-se en una segona menor."
+
+#: help/C/music-theory.xml:106(para)
+msgid "We remove the accidentals, and see that the interval A-B is a major second. You still remember <xref linkend=\"theory-intervals-seconds\"/>, don't you? Then we add the flat to the A, and the interval becomes an augmented second. And when we add the flat to the B, the interval becomes a major second."
+msgstr "Eliminem les alteracions, i observem que l'interval La-Si és una segona major. Encara recordeu <xref linkend=\"thoery-intervals-seconds\"/>, oi? A continuació afegim el bemoll al La, i l'interval es converteix en una segona augmentada. I quan afegim el bemoll al Si, l'interval es converteix a una segona major."
+
+#: help/C/music-theory.xml:121(para)
+msgid "We remove the accidentals, and see that the interval E-F is a minor second. When we add a flat to the lowest tone, the interval becomes one semitone larger, turning into a major second. And when we add a sharp to the highest tone, the interval becomes one semitone larger, turning into an augmented second."
+msgstr "Eliminem les alteracions, i observem que l'interval Mi-Fa és una segona menor. Quan afegim un bemoll al to més baix, l'interval esdevé un semitò més gran, convertint-lo en una segona major. I quan afegim un sostingut al to més alt, l'interval esdevé un semitò més gran, convertint-lo en una segona augmentada."
+
+#: help/C/music-theory.xml:134(title)
+msgid "Thirds"
+msgstr "Terceres"
+
+#: help/C/music-theory.xml:135(para)
+msgid "A minor third is one minor and one major second, or three semitones. A major third are two major seconds, or four semitone steps. <xref linkend=\"theory-intervals-thirds\"/> shows the thirds between all the natural tones. You should memorise the major intervals, C-E, F-A and G-B. Then you know that the other four intervals are minor."
+msgstr "Una tercera menor és una segona menor i una segona major, o tres semitons. Una tercera major són dos segones majors, o quatre passos de semitons. <xref linkend=\"theory-intervals-thirds\"/> mostra les terceres entre tots els tons naturals. Hauríeu de memoritzar els intervals majors, Do-Mi, Fa-La i Sol-Si. Aleshores sabeu que els altres quatre intervals són menors."
+
+#: help/C/music-theory.xml:150(para)
+msgid "Then you examine the accidentals to see if they change the specific name. This is done exactly the same way as for seconds."
+msgstr "A continuació examineu les alteraciones per veure i canvien el nom específic. Això es fa exactament de la mateixa manera que per a les segones."
+
+#: help/C/music-theory.xml:158(title)
+msgid "Fourth"
+msgstr "Quarta"
+
+#: help/C/music-theory.xml:159(para)
+msgid "A pure fourth is 2½ steps, or two major seconds and a minor second. <xref linkend=\"theory-intervals-fourths\"/> shows all fourths between natural tones. You should memorise that the fourth F-B is augmented, and that the other six are pure."
+msgstr "Una quarta pura és 2½ passos, o dues segones majors i un segona menor. <xref linkend=\"theory-intervals-fourths\"/> mostra totes les quartes entre els tons naturals. Hauríeu de memoritzar que la quarta Fa-Si és augmentada, i que els altres sis són purs."
+
+#: help/C/music-theory.xml:178(title)
+msgid "Fifth"
+msgstr "Quinta"
+
+#: help/C/music-theory.xml:179(para)
+msgid "A pure fifth is 3½ steps, or three major seconds and a minor second. <xref linkend=\"theory-intervals-fifths\"/> shows all fifths between natural tones. You should remember that all those intervals are pure, except B-F that is diminished."
+msgstr "Una quina pura és 3½ passos, o tres segones majors i una segona menor. <xref linkend=\"theory-intervals-fifths\"/> mostra totes les quines entre tons naturals. Hauríeu de recordar que tots aquests intervals són purs, excepte Si-Fa que es disminuït."
+
+#: help/C/music-theory.xml:193(para)
+msgid "If an interval has accidentals, then we must examine them to see how they change the size of the interval. A diminished fifth is one semitone smaller than a pure interval, and an augmented fifth is one semitone larger. Below you will find a few examples:"
+msgstr "Si un interval té alteracions, aleshores els hem d'examinar per veure com canvien la mida de l'interval. Una quina disminuïda és un semitò més petit que un interval pur, i una quina augmentada és un semitò més gran. Podeu trobar un parell d'exemples a sota:"
+
+#: help/C/music-theory.xml:207(para)
+msgid "We remember from <xref linkend=\"theory-intervals-fifths\"/> that the interval B-F is a diminished fifth. The lowest tone in <xref linkend=\"theory-intervals-fifths-1\"/> is preceded by a flat that makes the interval one semitone larger and changes the interval from a diminished to a pure fifth."
+msgstr "Recordem de <xref linkend=\"theory-intervals-fifths\"/> que l'interval Si-Fa és una quinta disminuïda. El to més baix a <xref linkend=\"theory-intervals-fifths-1\"/> és precedit per un bemoll que fa l'interval un semitò més gran i canvia l'interval de disminuït a una quinta pura."
+
+#: help/C/music-theory.xml:222(para)
+msgid "We know from <xref linkend=\"theory-intervals-fifths\"/> that interval E-B is a perfect fifth. In <xref linkend=\"theory-intervals-fifths-2\"/> the E has a flat in front of it, making the interval augmented. But then the B is preceded by a double flat that makes the interval two semitone steps smaller and changes the interval to a diminished fifth."
+msgstr "Sabem de <xref linkend=\"theory-intervals-fifths\"/> que l'interval Mi-Si és una cinquena perfecta. A <xref linkend=\"theory-intervals-fifths-2\"/> el Mi té un bemoll davant seu, fent que l'interval sigui augmentat. Però aleshores el Si està precedit d'un bemoll doble que fa a l'interval dos passos de semitò més petit i canvia l'interval a una cinquena disminuïda."
+
+#: help/C/music-theory.xml:230(title)
+msgid "Sixths"
+msgstr "Sisenes"
+
+#: help/C/music-theory.xml:231(para)
+msgid "Sixths are easiest identified by <link linkend=\"inverting-intervals\"> inverting the interval</link> and identifying the third. Then the following rule applies:"
+msgstr "Les sisenes d'identifiquen més fàcilment per <link linkend=\"inverting-intervals\"> la inversió de l'interval</link> i la identificació de la tercera. Aleshores s'aplica la regla següent:"
+
+#: help/C/music-theory.xml:236(para)
+msgid "If the third is diminished, then the sixth is augmented"
+msgstr "Si la tercera està disminuïda, aleshores la sisena està augmentada."
+
+#: help/C/music-theory.xml:237(para)
+msgid "If the third is minor, then the sixth is major"
+msgstr "Si la tercera és menor, aleshores la sisena és major"
+
+#: help/C/music-theory.xml:238(para)
+msgid "If the third is major, then the sixth is minor"
+msgstr "Si la tercera és major, aleshores la sisena és menor"
+
+#: help/C/music-theory.xml:239(para)
+msgid "If the third is augmented, then the sixth is diminished"
+msgstr "Si la tercera és augmentada, aleshores la sisena és disminuïda"
+
+#: help/C/music-theory.xml:242(para)
+msgid "If you find inverting intervals difficult, then you can memorise that the intervals E-C, A-F and B-G are minor. The other four are major. Then you examine the accidentals to see if they change the specific name. This is done exactly the same way as for seconds."
+msgstr "Si us resulta difícil la inversió dels intervals, aleshores podeu memoritzar que els intervals Mi-Do, La-Fa i Si-Sol són menors. Els altres quatre són majors. A continuació examineu les alteracions per veure si canvien el nom específic. Això es fa exactament de la mateixa manera que per a les segones."
+
+#: help/C/music-theory.xml:259(title)
+msgid "Sevenths"
+msgstr "Setenes"
+
+#: help/C/music-theory.xml:260(para)
+msgid "Sevenths are identified the same way as sixths. When you invert a seventh, you get a second."
+msgstr "Les setenes s'identifiquen de la mateixa manera que les sisenes. Quan invertiu una setena, obteniu una segona."
+
+#: help/C/music-theory.xml:263(para)
+msgid "If you find inverting intervals difficult, then you can memorise that the intervals C-B and F-E are major. The other five are minor. Then you examine the accidentals to see if they change the specific name. This is done exactly the same way as for seconds."
+msgstr "Si us resulta difícil la inversió d'intervals, aleshores podeu memoritzar que els intervals Do-Si i Fa-Mi són majors. Els altres cinc són menors. Aleshores examineu les alteracions per veure si canvien el nom específic. Això es fa exactament de la mateixa manera que per a les segones."
+
+#: help/C/music-theory.xml:283(title)
+msgid "Inverting intervals"
+msgstr "Inversió d'intervals"
+
+#: help/C/music-theory.xml:284(para)
+msgid "You invert an interval when you move the lowest tone of an interval one octave higher or the highest tone one octave lower. The general name changes this way:"
+msgstr "Invertiu un interval quan moveu el to més baix d'un interval una octava més alta o el to més alta una octava més baixa. El nom general canvia de la manera següent:"
+
+#: help/C/music-theory.xml:287(para)
+msgid "Second becomes seventh."
+msgstr "Una segona es converteix en una setena."
+
+#: help/C/music-theory.xml:288(para)
+msgid "Third becomes sixth."
+msgstr "Una tercera es converteix en una sexta."
+
+#: help/C/music-theory.xml:289(para)
+msgid "Forth becomes fifth."
+msgstr "Un quarta es converteix en una cinquena."
+
+#: help/C/music-theory.xml:290(para)
+msgid "Fifth becomes fourth."
+msgstr "Una cinquena es converteix en una quarta."
+
+#: help/C/music-theory.xml:291(para)
+msgid "Sixth becomes third."
+msgstr "Una sisena es converteix en una tercera."
+
+#: help/C/music-theory.xml:292(para)
+msgid "Seventh becomes second."
+msgstr "Una setena es converteix en una segona."
+
+#: help/C/music-theory.xml:295(para)
+msgid "The specific name changes this way:"
+msgstr "El nom específic canvia de la manera següent:"
+
+#: help/C/music-theory.xml:297(para)
+msgid "Diminished becomes augmented."
+msgstr "Disminuït es converteix en augmentat."
+
+#: help/C/music-theory.xml:298(para)
+msgid "Minor becomes major."
+msgstr "Menor es converteix en major."
+
+#: help/C/music-theory.xml:299(para)
+msgid "Perfect stays perfect."
+msgstr "Perfecte es manté en perfecte."
+
+#: help/C/music-theory.xml:300(para)
+msgid "Major becomes minor."
+msgstr "Major es converteix en menor."
+
+#: help/C/music-theory.xml:301(para)
+msgid "Augmented becomes diminished."
+msgstr "Augmentat es converteix en disminuït."
+
+#: help/C/music-theory.xml:304(para)
+msgid "Below are two examples, a major third is inverted and becomes a minor sixth, and a minor seventh is inverted and becomes a major second."
+msgstr "A sota hi ha dos exemples, una tercera major s'inverteix i es converteix en una sisena menor i una setena menor s'inverteix i es converteix en una segona major."
+
+#: help/C/melodicinterval.xml:2(title)
+msgid "Melodic interval"
+msgstr "Interval melòdic"
+
+#: help/C/melodicinterval.xml:16(para)
+msgid "This exercise creates random intervals and you should try to identify them."
+msgstr "Aquest exercici crea intervals aleatoris i els hauríeu d'intentar identificar."
+
+#: help/C/melodicinterval.xml:18(para) help/C/harmonicinterval.xml:22(para)
+msgid "If you are using the buttons interface, then you can right-click on the buttons to hear the interval they represent."
+msgstr "Si esteu usant la interfície de botons, aleshores podeu fer un clic amb el botó dret sobre els botons per escoltar l'interval que representen."
+
+#: help/C/interval-config-help.xml:2(title)
+msgid "Configuration"
+msgstr "Configuració"
+
+#: help/C/interval-config-help.xml:3(para)
+msgid "On the config page of the exercise, there is a combo box where you can select different ways to answer the question. Currently there is a piano, guitar, bass and a few types of accordion in addition to the default buttons interface. Below is a screenshot showing the piano interface."
+msgstr "A la pàgina de configuració de l'exercici, hi ha un quadre combinat on podeu seleccionar diferents maneres per contestar la pregunta. Actualment hi a un piano, una guitarra, un baix i uns quants tipus d'acordió a més de la interfície predeterminada de botons. A sota hi ha una captura de pantalla que mostra la interfície de piano."
+
+#: help/C/idtone.xml:2(title)
+msgid "Identify tone"
+msgstr "Identifiqueu el to"
+
+#: help/C/idtone.xml:16(para)
+msgid "This is a combined tone memory and interval exercise. Some people believe this kind of exercise can give you perfect pitch (absolute pitch), but I don't believe so."
+msgstr "Aquest és un exercici combinat de memòria tonal i interval. Algunes persones creuen que aquest tipus d'exercici us poden donar afinació perfecta (afinació absoluta), però jo no ho crec."
+
+#: help/C/idtone.xml:22(para)
+msgid "The basics are: the program play a tone and you must identify it by comparing it with the last tone played for you."
+msgstr "Bàsicament: el programa toca un to i heu d'identificar-lo comparant-lo amb l'últim to que heu tocat."
+
+#: help/C/idtone.xml:26(para)
+msgid "To get you started the program will play one tone and display its name on the status bar. You identify the tones by clicking on the piano keyboard or using the keyboard shortcuts that are the letters written on each key."
+msgstr "Per començar, el programa tocarà un to i mostrarà el seu nom a la barra d'estat. Identifiqueu els tons clicant sobre el teclat de piano o usant les dreceres de teclat que són lletres escrites sobre cada tecla."
+
+#: help/C/idtone.xml:31(para)
+msgid "Right click on the piano keyboard to hear a note without actually guessing it. (Some will call that cheating....)"
+msgstr "Feu un clic amb el botó dret sobre el teclat de piano per escoltar una nota sense endevinar-la realment. (Alguns a això li diran fer trampa...)"
+
+#: help/C/idtone.xml:34(para)
+msgid "Solfege have a set of exercises that you can find by clicking “Identify tone” on the front page. You should start with the first exercise, and move to the next each time you can practise from some minutes and still have quite a good score, for example 96% correct."
+msgstr "El solfege té un conjunt d'exercicis que podeu trobar clicant «Identifiqueu el to» a la portada. Hauríeu de començar amb el primer exercici, i continuar al següent cada cop que podeu practicar uns minuts i encara teniu una partitura bona, per exemple el 96% correcte."
+
+#: help/C/idtone.xml:40(title)
+msgid "Manual configuration"
+msgstr "Configuració manual"
+
+#: help/C/idtone.xml:42(para)
+msgid "You can configure this exercise as you like if you select select “Configure yourself” front the default front page."
+msgstr "Podeu configurar aquest exercici com desitgeu si seleccioneu «Configureu-lo personalment» des de la portada predeterminada."
+
+#: help/C/idtone.xml:45(para)
+msgid "There are several ways you can use this exercise. Personally, I have not used this exercise very much, and the sections below are only suggestions."
+msgstr "Hi ha moltes maneres que podeu usar aquest exercici. Personalment, no he fet servir massa aquest exercici, i les seccions a sota són sols suggeriments."
+
+#: help/C/idtone.xml:49(title)
+msgid "Note by note"
+msgstr "Nota per nota"
+
+#: help/C/idtone.xml:50(para)
+msgid "Start with only the notes c-d-e at weight 1. When your score is at least 96% correct, you add the tone f and continue. Add one new tone until you practise with all 12 tones. Doing this is the same as using the predefined exercises and following the instructions in the start of this chapter."
+msgstr "Comenceu sols amb els tons do-re-mi amb el pes 1. Quan la vostra puntuació és correcta almenys 96%, afegiu el to fa i continueu. Afegiu un to nou fins que practiqueu amb els 12 tons. Fent això és el mateix que usar els exercicis predeterminat i seguir les instruccions a l'inici d'aquest capítol."
+
+#: help/C/idtone.xml:59(title)
+msgid "Heavy A"
+msgstr "La pesat"
+
+#: help/C/idtone.xml:61(para)
+msgid "Configure with the tone a at weight 11 (or higher) and the rest of the tones at weight 1. This way the program will play the tone a very often, so you will remember the tone, and then you use a as a reference tone to identify the other tones. When you have practised a while, you can reduce the weight of a to make the exercise harder."
+msgstr "Configureu el to La amb un pes igual a 11 (o més pesat) i la resta de tons a un pes 1l D'aquesta manera el programa tocarà el to La molt sovint, així recordareu el to, i aleshores useu un La com a referència tonal per identificar els altres tons. Quan heu practicat una estona, podeu reduir el pes del La per fer l'exercici més difícil."
+
+#: help/C/idtone.xml:67(para)
+msgid "If run from “Configure yourself”, on the top of the config page you tell the program how important the different tones are. If you for example give the tone a 11 points and the rest 1 point each, then (11+11*1)/11*100 = 50% of the random tones will be an a."
+msgstr "Si useu el programa des de «Configureu-ho personalment», a la part superior de la pàgina de configuració li dieu al programa quina és la importància dels diferents tons Si per exemple doneu al to La 11 punts i a la resta 1 punt a cadascú, aleshores (11+11*1)/11*100 = 50% dels tons aleatoris seran un La."
+
+#: help/C/idtone.xml:72(para)
+msgid "Below that you select what octaves the random tones can be from."
+msgstr "A sota d'això seleccioneu de quines octaves poden ser els tons aleatoris"
+
+#: help/C/idtone.xml:74(para)
+msgid "Then you can select if Solfege should give you a new question automatically when you have solved the old."
+msgstr "A continuació podeu seleccionar si el Solfege hauria de donar-vos una pregunta nova automàticament quan heu resolt l'antiga."
+
+#: help/C/idtone.xml:77(para)
+msgid "In the frame below you can set some pretty self explaining options about what happens if you answer wrong."
+msgstr "Al marc a sota podeu establir algunes opcions força evidents sobre què passa si responeu incorrectament."
+
+#: help/C/idtone.xml:80(para)
+msgid "The keyboard shortcuts can be configured from the <link linkend=\"preferences-window\">preferences window</link>."
+msgstr "Les dreceres de teclat es poden configurar des de la <link linkend=\"preferences-window\">finestra de preferències</link>."
+
+#: help/C/idproperty.xml:2(title)
+msgid "Multiple choice answers to music"
+msgstr "Respotes d'opció múltiple a la música."
+
+#: help/C/idproperty.xml:17(para)
+msgid "This page is a generic help page for all exercises written using the <literal>idproperty</literal> exercise module. Exercises will typically write more specialized help text than this."
+msgstr "Aquesta pàgina és uns pàgina genèrica d'ajuda per a tots els exercicis escrits usant el mòdul d'exercicis \"<literal>idproperty</literal>. Els exercicis aportaran generalment una ajuda més especialitzada que aquesta."
+
+#: help/C/idproperty.xml:21(para)
+msgid "The screenshot above show one example of how an exercise can look like."
+msgstr "La captura de pantalla a sobre mostra un exemple sobre com pot ser un exercici."
+
+#: help/C/idproperty.xml:24(para)
+msgid "The exercise will display a question and play some music, and you have to select one answer from each column in the table of buttons. When you select the correct answer in a column, the label will turn bold, and the message \"Correct\" will be flashed in the status bar."
+msgstr "L'exercici mostrarà una pregunta i tocarà alguna música, i heu de triar una resposta de cada columna a la taula de botons. Quan seleccioneu la resposta correcta a una columna, l'etiqueta es convertirà en negreta, i es ressaltarà el missatge «Correcte» a la barra d'estat."
+
+#: help/C/idproperty.xml:29(para)
+msgid "The exercise will have a <guibutton>Repeat arpeggio</guibutton> if one or more of the questions is of a type the program can play arpeggiated."
+msgstr "L'exercici tindrà un <guibutton>Repeteix arpegi</guibutton> si una o més preguntes es d'un tipus al qual el programa pot tocar un arpegi."
+
+#: help/C/identifybpm.xml:2(title)
+msgid "Beats per minute"
+msgstr "Pulsacions per minut"
+
+#: help/C/identifybpm.xml:13(para)
+msgid "The program will play a tempo, like a metronome. You should try to guess how many beats per minute is played. Each button represents one tempo, and the program will only play in tempos that has a button with bold text. Right-click on buttons to change the status of a tempo."
+msgstr "El programa tocarà un tempo, com un metrònom. Hauríeu d'intentar endevinar quantes pulsacions per minuts es toquen. Cada botó representa un tempo, i el programa sols tocarà a tempos que tenen un botó amb text en negreta. Feu un clic amb el botó dret sobre els botons per canviar l'estat d'un tempo."
+
+#: help/C/identifybpm.xml:18(para)
+msgid "Note: the rhythm depends on the <literal>gtk timeout_add</literal> function to play the rhythm, so it is not very precise."
+msgstr "Nota: el ritme depèn de la funció <literal>gtk timeout_add</literal> per tocar un ritme, així que no eś massa precís."
+
+#: help/C/idbyname.xml:2(title)
+msgid "Answer questions by clicking on buttons"
+msgstr "Contesteu les preguntes clicant sobre els botons"
+
+#: help/C/idbyname.xml:3(para)
+msgid "This page is a generic help page for all exercises written using the <literal>idbyname</literal> exercise module. Exercises will typically write more specialized help text than this."
+msgstr "Aquesta pàgina és una pàgina d'ajuda genèrica per a tots els exercicis escrits usant el mòdul d'exercicis <literal>idbyname</literal>. Els exercicis mostraran generalment una ajuda més especialitzada que aquesta."
+
+#: help/C/idbyname.xml:7(para)
+msgid "Click on the button representing the answer of the question played or displayed. Exercises will often display a heading telling the purpose of the exercise."
+msgstr "Cliqueu sobre el botó representant la resposta de la pregunta tocada o mostrada. Els exercicis sovint mostraran una capçalera explicant l'objectiu de l'exercici."
+
+#: help/C/idbyname-intonation.xml:2(title)
+msgid "Intonation"
+msgstr "Entonació"
+
+#: help/C/idbyname-intonation.xml:16(para)
+msgid "In this exercise, Solfege will play a interval, and you should tell how the interval is intonated. You do this by clicking on one of the buttons labeled 'too small', 'pure' or 'too large'. It is also possible that one of these three buttons are missing."
+msgstr "En aquest exercici, el Solfege tocarà un interval, i hauríeu de dir com s'entona l'interval. Ho feu clicant sobre un dels botons etiquetats «massa petit», «pur» o «massa gran». També és possible que un d'aquests tres botons no hi sigui."
+
+#: help/C/idbyname-chords.xml:2(title)
+msgid "Identify the chord"
+msgstr "Identifiqueu l'acord"
+
+#: help/C/idbyname-chords.xml:16(para)
+msgid "The purpose of this exercise is to identify the chord being played."
+msgstr "L'objectiu d'aquest exercici és identificar l'acord a tocar."
+
+#: help/C/idbyname-chords.xml:17(para)
+msgid "Start the exercise by pressing <guibutton>New</guibutton>. Solfege will then play a chord, and you should identify it by clicking one of the buttons below the empty staff line."
+msgstr "Inicieu l'exercici prement <guibutton>New</guibutton>. El Solfege tocarà a continuació un acord, i hauríeu d'identificar-lo clicant un dels botons a sota de la línia buida de pentagrama."
+
+#: help/C/idbyname-chords.xml:19(para)
+msgid "If you guess correct, the program will display the chord on the staff line and flash the message \"Correct\" in the status bar. Then you can click the button <guibutton>New</guibutton> to get a new question."
+msgstr "Si endevineu correctament, el programa mostrarà l'acord sobre la línia de pentagrama i ressaltarà el missatge «Correcte» a la barra d'estat. A continuació podeu clicar sobre el botó <guibutton>Nou</guibutton> per obtenir una pregunta nova."
+
+#: help/C/idbyname-chords.xml:21(para)
+msgid "If you guess wrong the message \"Wrong\" will be displayed in the status bar."
+msgstr "Si conjectureu incorrectament es mostrarà el missatge «Incorrecte» a la barra d'estat."
+
+#: help/C/idbyname-cadences.xml:2(title)
+msgid "Identify the cadence"
+msgstr "Identifiqueu la cadència"
+
+#: help/C/idbyname-cadences.xml:3(para)
+msgid "Identify the cadence by clicking on the button with its name. As acknowledged in <ulink url=\"http://bugs.solfege.org/5\">bug #5</ulink> we need cadence exercises in Solfege."
+msgstr "Identifiqueu la cadència clicant sobre el botó amb el seu nom. Com reconeixem a <ulink url=\"http://bugs.solfege.org/5\">error #5</ulink> ens calen exercicis de cadències al Solfege."
+
+#: help/C/idbyname-cadences.xml:8(para)
+msgid "In this release of Solfege, we only have one exercise with cadences in major. In this exercise, a major scale is played to establish the tonic. Maybe this is too little? Do we need a complete I-IV-V-I before the question? Or maybe it is better to write real music that ends in the cadence we want to practise? This are things we need to decide before we release 3.12.0. Comments and music can be added to <ulink url=\"http://bugs.solfege.org/5\"> bug #5</ulink>."
+msgstr "A aquesta versió del Solfege sols tenim un exercici amb cadències en to major. A aquest exercici, es toca una escala major per establir la tònica. Potser això és massa poc? Ens cal un I-IV-V-I complet abans de la pregunta? O potser és millor escriure música real que finalitza amb la cadència que volem practicar? Aquests són temes que hem de decidir abans d'alliberar la versió 3.12.0. Es poden afegir comentaris i música a  <ulink url=\"http://bugs.solfege.org/5\">error #5</ulink>."
+
+#: help/C/harmonicinterval.xml:2(title)
+msgid "Harmonic interval"
+msgstr "Interval harmònic"
+
+#: help/C/harmonicinterval.xml:16(para)
+msgid "This exercise is one of the exercises you can use to practise intervals. The concept is pretty simple: You press the <guibutton>New interval</guibutton> button to play a random interval, and then you should tell what interval it was."
+msgstr "Aquest és un dels exercicis que podeu usar per practicar intervals. El concepte és força senzill: Premeu el botó <guibutton>Nou interval</guibutton> per tocar un interval aleatori, i a continuació heu de dir quin interval va ser."
+
+#: help/C/elembuilder-harmonic-progressions.xml:2(title)
+msgid "Harmonic progression dictation"
+msgstr "Dictat de progressió harmònica"
+
+#: help/C/elembuilder-harmonic-progressions.xml:16(para)
+msgid "In this exercise, Solfege will play some music, and you must click on the buttons to build a representation of the harmonic progressions in the exercise."
+msgstr "A aquest exercici, el Solfege tocarà alguna música, y heu de clicar sobre els botons per construir una representació de les progressions harmòniques a l'exercici."
+
+#: help/C/ear-training-test-printout-editor.xml:2(title)
+msgid "Ear training test print-out editor"
+msgstr "Editor d'impressions de tests d'entrenament de l'oïda"
+
+#: help/C/ear-training-test-printout-editor.xml:15(para)
+msgid "This tool is available on the <guimenu>File</guimenu> menu. Use it to create ear training tests to print out on paper. Solfege will generate two versions of the document: one for the students to complete, and one with the correct answer already written. This tool was added by request from a user, but we don't know if it has any real world usage. So please <link linkend=\"online-resources\">contact us</link> if you really use this, and let us know if it is usable."
+msgstr "Aquesta eina està disponible al menú <guimenu>Fitxer</guimenu>. Useu-la per crear tests d'entrenament de l'oïda per imprimir en paper. El Solfege generarà dues versions del document: un perquè completin els estudiants, i un altre amb la resposta correcta ja escrita. Aquesta eina s'ha afegit a iniciativa d'un usuari, però no sabem si té aplicació al món real. Així que si us plau <link linkend=\"online-resources\">contacteu-nos</link> si realment la useu, i feu-nos saber si es pot usar."
+
+#: help/C/ear-training-test-printout-editor.xml:25(para)
+msgid "The <guibutton>Add</guibutton> button will pop up a menu with all exercises from the active front page that this tool can create exercises from: exercises written using the <link linkend=\"idbyname-module\">idbyname</link>, <link linkend=\"melodicinterval-module\">melodicinterval</link> and <link linkend=\"harmonicinterval-module\">harmonicinterval</link> exercise modules. From lesson files written for the <literal>idbyname</literal> module, only <link linkend=\"lfunc-chord\">chord</link>, <link linkend=\"lfunc-rvoice\">rvoice</link> and <link linkend=\"lfunc-voice\">voice</link> music objects are supported."
+msgstr "El botó <guibutton>Afegeix</guibutton> farà emergir un menú amb tots els exercicis de la portada activa a partir de la qual aquesta eina pot crear exercicis: els exercicis escrits usant els mòduls d'exercicis <link linkend=\"idbyname-module\">idbyname</link>, <link linkend=\"melodicinterval-module\">melodicinterval</link> and <link linkend=\"harmonicinterval-module\">harmonicinterval</link>."
+
+#: help/C/ear-training-test-printout-editor.xml:39(para)
+msgid "<guibutton>Create sheet</guibutton> will open a dialog that let you select or create an empty directory, and then save the HTML or LaTex files and the graphics in that directory."
+msgstr "<guibutton>Crea una partitura</guibutton> obrirà un diàleg que us deixarà triar o crear un directori buit, i després desarà els fitxers HTML o LaTeX i les gràfiques a aquest directori."
+
+#: help/C/ear-training-test-printout-editor.xml:45(para)
+msgid "When you save and load the files defining ear training tests, the program will remember the random questions, so loading a file and clicking <guibutton>Create Sheet</guibutton> will create the exact same test. Click <guibutton>Randomize</guibutton> to create a new random set of questions."
+msgstr "Quan deseu i carregueu els fitxers que defineixen els tests d'entrenament de l'oïda, el programa recordarà les preguntes aleatòries, de manera que quan es carrega un fitxer i es clica <guibutton>Crea una partitura</guibutton> es crearà exactament el mateix test. Cliqueu <guibutton>Aleatoritza</guibutton> per crear un nou conjunt aleatori de preguntes."
+
+#: help/C/dictation.xml:2(title)
+msgid "Dictation"
+msgstr "Dictat"
+
+#: help/C/dictation.xml:10(phrase)
+msgid "Screenshot of the program running the dictation exercise."
+msgstr "Captura de pantalla del programa executant l'exercici de dictat."
+
+#: help/C/dictation.xml:19(para)
+msgid "You can let Solfege play some music for you that you are supposed to write down on paper. Click on the buttons with a quarter note pixmap to repeat smaller parts of the music. You have to click on the Show button and check your notes yourself to see if you made any mistakes."
+msgstr "Podeu fer que el Solfege us toqui alguna música que se suposa que heu d'escriure en paper. Cliqueu sobre el botons amb un mapa de píxels d'una negra per repetir parts més petites de la música. Heu de clicar sobre el botó Mostra i verificar les vostres notes per veure si heu fet cap error."
+
+#: help/C/dictation.xml:25(para)
+msgid "You can use this exercise to practise sight singing: When you start the exercise, press Show and then try to sing the music. Then you can use the Play the whole music button or the quarter note buttons to let the program play the music. You have to decide yourself if you think you succeeded."
+msgstr "Podeu usar aquest exercici per practicar lectura a vista: Quan inicieu l'exercici, premeu Mostra i després intenteu cantar la música. Després podeu usar el botó Toca la música completa o els botons negres per fer que el programa toqui la música. Heu de decidir personalment si creieu que heu tingut èxit."
+
+#: help/C/dictation.xml:16(para)
+msgid "This exercise is called the dictation exercise, but if the necessary lesson files are written it can be used in several ways: <placeholder-1/>"
+msgstr "Aquest exercici s'anomena l'exercici de dictat, però si estan escrits els fitxers de lliçó necessaris es pot usar de moltes maneres: <placeholder-1/>"
+
+#: help/C/bug-reporting.xml:2(title)
+msgid "Bugs"
+msgstr "Errors"
+
+#: help/C/bug-reporting.xml:3(para)
+msgid "Report bugs to the bug tracker at <ulink url=\"http://bugs.solfege.org/\">http://bugs.solfege.org</ulink>. Alternately, you can send an email to <email>bug-solfege@gnu.org</email>. General questions and patches should be sent to <email>solfege-devel@lists.sourceforge.net</email>."
+msgstr "Informeu d'errors al seguidor d'errors a <ulink url=\"http://bugs.solfege.org/\">http://bugs.solfege.org</ulink>. Alternativament, podeu enviar un correu electrònic a <email>bug-solfege@gnu.org</email>. S'haurien d'enviar les preguntes generals i els pegats a  <email>solfege-devel@lists.sourceforge.net</email>."
+
+#: help/C/bug-reporting.xml:9(para)
+msgid "Please make your bug reports detailed. ''I get an error message in a window when I try to start the program.'' is not usable to me. When reporting bugs:"
+msgstr "Si us plau feu els vostres informes d'errors detallats. «Em surt un missatge d'error quan intento iniciar el programa.» no m'és d'utilitat. Quan informeu d'errors:"
+
+#: help/C/bug-reporting.xml:14(para)
+msgid "Tell me what version of Solfege you run. Please check if a newer release is available. If you only want to run stable releases, then you don't have to test newer development releases."
+msgstr "Digueu-me quina versió del Solfege esteu executant. Si us plau mireu si hi ha disponible una versió més nova. Si sols voleu usar versions estables, no us cal provar versions més noves de desenvolupament."
+
+#: help/C/bug-reporting.xml:15(para)
+msgid "What operating system are you running? Version?"
+msgstr "Quin sistema operatiu esteu usant? Quina versió?"
+
+#: help/C/bug-reporting.xml:16(para)
+msgid "Describe exactly what you are doing when the error happens."
+msgstr "Descriviu exactament que estàveu fent quan es va produir l'error."
+
+#: help/C/bug-reporting.xml:17(para)
+msgid "Send an exact copy of the error messages. They make sense to the Solfege author even if you think they look cryptic to you."
+msgstr "Envieu una còpia exacta del missatge d'error. Tenen sentit per a l'autor del Solfege tot i que us puguin sembla críptics."
+
+#: help/C/about-statistics.xml:2(title)
+msgid "About statistics"
+msgstr "Quant a les estadístiques"
+
+#: help/C/about-statistics.xml:3(para)
+msgid "Some exercises will show some statistics for different periods of time: <emphasis>Session</emphasis>, <emphasis>Today</emphasis>, <emphasis>Last 7 days</emphasis> and <emphasis>Total</emphasis>. The program uses two different kind of tables."
+msgstr "Alguns exercicis mostraran algunes estadístiques per a diferents períodes de temps: <emphasis>Sessió</emphasis>, <emphasis>Avui</emphasis>, <emphasis>Últims 7 dies</emphasis> i <emphasis>Total</emphasis>. El programa usa dos tipus de taules."
+
+#: help/C/about-statistics.xml:15(phrase)
+msgid "Screenshot of the percentages table of a statistics page."
+msgstr "Captura de pantalla de la taula de  percentatges d'una pàgina d'estadístiques."
+
+#: help/C/about-statistics.xml:20(para)
+msgid "The first table, as shown in the screenshot above, have one row for each question in the lesson file. <emphasis>Percent</emphasis> is the percentage of the times the question have been answered correctly. <emphasis>Count</emphasis> is the number of times the question have been asked."
+msgstr "La primera taula, com es mostra a la captura de pantalla de dalt, té una fila per a cada pregunta al fitxer de lliçons. <emphasis>Per cent</emphasis> és el percentatge del nombre de cops que es contestar correctament la pregunta.  <emphasis>Compte</emphasis> és el nombre de cops que la pregunta s'ha preguntat."
+
+#: help/C/about-statistics.xml:27(para)
+msgid "In the second type of table, the columns have the same labels as the rows, but the labels are not displayed because it will make the table too wide. So in the screenshot above, column 1 should have the label <emphasis>m3↑</emphasis> and column 2 <emphasis>M3↑</emphasis>. For the questions identified by the label of each row, each column tell how many times the user have answered the different possible answers. The bold number is the number of times the correct answer have been give."
+msgstr "Al segon tipus de taula, les columnes tenen les mateixes etiquetes que les files, però les etiquetes no es mostren perquè faran la taula massa ampla. De manera que a la captura de pantalla de dalt, la columna 1 hauria de tenir l'etiqueta  <emphasis>m3↑</emphasis> i la columna 2 <emphasis>M3↑</emphasis>. Per a les preguntes identificades per l'etiqueta de cada fila, cada columna indica quants cops l'usuari ha respost les diferents possible preguntes. El número en negreta és el nombre de cops que s'ha donat la resposta correcta."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: help/C/about-statistics.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"translator-credits<\n"
+"Walter Garcia-Fontes <walter.garcia@upf.edu>, 2016"

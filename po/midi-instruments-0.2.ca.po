@@ -1,0 +1,645 @@
+# General MIDI Level 1 Sound Set instrument names.
+#
+# These names are listed on http://www.midi.org/techspecs/gm1sound.php ;
+# this list was converted to PO format by Lauri Nurmi <lanurmi@iki.fi>.
+#
+# Permission is granted to freely copy and distribute this file and
+# any modified versions, provided that none of these comment lines
+# is removed and modified versions are marked as such.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: midi-instruments 0.2\n"
+"Report-Msgid-Bugs-To: coordinator at translationproject.org\n"
+"POT-Creation-Date: 2014-03-29 21:35+0200\n"
+"PO-Revision-Date: 2012-11-30 11:13+0200\n"
+"Last-Translator: Eugeni <eugenicat@gmail.com>\n"
+"Language-Team: Scratch Translators at <translate.scratch.mit.edu>\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.1.6\n"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Piano"
+msgstr "Dibuixa"
+
+#. Family of instruments.
+msgid "Chromatic Percussion"
+msgstr ""
+
+#. Family of instruments.
+#, fuzzy
+msgid "Organ"
+msgstr "Armonium"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Guitar"
+msgstr "Sitar"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Bass"
+msgstr "Fagot"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Strings"
+msgstr "quelcom"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Ensemble"
+msgstr "Conjunt de Corda 1"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Brass"
+msgstr "Fagot"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Reed"
+msgstr "Torna-hi"
+
+#. Family of instruments.
+msgid "Pipe"
+msgstr ""
+
+#. Family of instruments.
+#, fuzzy
+msgid "Synth Lead"
+msgstr "Veu sintètica"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Synth Pad"
+msgstr "Percusió sintètica 1"
+
+#. Family of instruments.
+msgid "Synth Effects"
+msgstr ""
+
+#. Family of instruments.
+msgid "Ethnic"
+msgstr ""
+
+#. Family of instruments.
+#, fuzzy
+msgid "Percussive"
+msgstr "Orgue de percusió"
+
+#. Family of instruments.
+#, fuzzy
+msgid "Sound Effects"
+msgstr "Sons"
+
+#, fuzzy
+msgid "Acoustic Grand Piano"
+msgstr "Piano acústic gran"
+
+#, fuzzy
+msgid "Bright Acoustic Piano"
+msgstr "Piano acústic brillant"
+
+#, fuzzy
+msgid "Electric Grand Piano"
+msgstr "Piano elèctric gran"
+
+#, fuzzy
+msgid "Honky-tonk Piano"
+msgstr "Piano de bar"
+
+msgid "Electric Piano 1"
+msgstr "Piano elèctric 1"
+
+msgid "Electric Piano 2"
+msgstr "Piano elèctric 2"
+
+msgid "Harpsichord"
+msgstr "Arpa"
+
+#, fuzzy
+msgid "Clavi"
+msgstr "Clavecí"
+
+msgid "Celesta"
+msgstr "Celesta"
+
+msgid "Glockenspiel"
+msgstr "Joc de timbres"
+
+msgid "Music Box"
+msgstr "Caixa xinesa"
+
+msgid "Vibraphone"
+msgstr "Vibràfon"
+
+msgid "Marimba"
+msgstr "Marimba"
+
+msgid "Xylophone"
+msgstr "Xylofon"
+
+msgid "Tubular Bells"
+msgstr "Campanes tubulars"
+
+msgid "Dulcimer"
+msgstr "Dulcimer"
+
+msgid "Drawbar Organ"
+msgstr "Orgue"
+
+msgid "Percussive Organ"
+msgstr "Orgue de percusió"
+
+msgid "Rock Organ"
+msgstr "Orgue de Rock"
+
+msgid "Church Organ"
+msgstr "Orgue d'església"
+
+msgid "Reed Organ"
+msgstr "Armonium"
+
+msgid "Accordion"
+msgstr "Acordió"
+
+msgid "Harmonica"
+msgstr "Armònica"
+
+msgid "Tango Accordion"
+msgstr "Bandonió"
+
+#, fuzzy
+msgid "Acoustic Guitar (nylon)"
+msgstr "Piano acústic gran"
+
+#, fuzzy
+msgid "Acoustic Guitar (steel)"
+msgstr "Caixa acústica"
+
+#, fuzzy
+msgid "Electric Guitar (jazz)"
+msgstr "Guitarra elèctrica de Jazz"
+
+#, fuzzy
+msgid "Electric Guitar (clean)"
+msgstr "Piano elèctric gran"
+
+#, fuzzy
+msgid "Electric Guitar (muted)"
+msgstr "Guitarra elèctrica de Jazz"
+
+msgid "Overdriven Guitar"
+msgstr "Guitarra distorsionada"
+
+msgid "Distortion Guitar"
+msgstr "Guitarra distorsionada"
+
+#, fuzzy
+msgid "Guitar harmonics"
+msgstr "Armònics de guitarra"
+
+msgid "Acoustic Bass"
+msgstr "Baix acústic"
+
+msgid "Electric Bass (finger)"
+msgstr "Baix elèctric (pitjat)"
+
+msgid "Electric Bass (pick)"
+msgstr "Baix elèctric (colpejat)"
+
+msgid "Fretless Bass"
+msgstr "Baix sense trastes"
+
+msgid "Slap Bass 1"
+msgstr "Cop de baix 1"
+
+msgid "Slap Bass 2"
+msgstr "Cop de baix 2"
+
+msgid "Synth Bass 1"
+msgstr "Percusió sintètica 1"
+
+msgid "Synth Bass 2"
+msgstr "Percusió sintètica 2"
+
+msgid "Violin"
+msgstr "Violí"
+
+msgid "Viola"
+msgstr "Viola"
+
+msgid "Cello"
+msgstr "Violoncel"
+
+msgid "Contrabass"
+msgstr "Contrabaix"
+
+msgid "Tremolo Strings"
+msgstr "Cordes amb tremolo"
+
+msgid "Pizzicato Strings"
+msgstr "Cordes fent Pizzicato"
+
+#, fuzzy
+msgid "Orchestral Harp"
+msgstr "Orquesta"
+
+msgid "Timpani"
+msgstr "Timbals"
+
+msgid "String Ensemble 1"
+msgstr "Conjunt de Corda 1"
+
+msgid "String Ensemble 2"
+msgstr "Conjunt de Corda 2"
+
+msgid "SynthStrings 1"
+msgstr "Cordes sintètiques 1"
+
+msgid "SynthStrings 2"
+msgstr "Cordes sintètiques 2"
+
+msgid "Choir Aahs"
+msgstr "Cor de veus"
+
+msgid "Voice Oohs"
+msgstr "Cor de veus"
+
+msgid "Synth Voice"
+msgstr "Veu sintètica"
+
+msgid "Orchestra Hit"
+msgstr "Orquesta"
+
+msgid "Trumpet"
+msgstr "Trompeta"
+
+msgid "Trombone"
+msgstr "Trombó"
+
+msgid "Tuba"
+msgstr "Tuba"
+
+msgid "Muted Trumpet"
+msgstr "Trompeta amb sordina"
+
+msgid "French Horn"
+msgstr "Corn francès"
+
+msgid "Brass Section"
+msgstr "Secció de metall"
+
+msgid "SynthBrass 1"
+msgstr "Metall sintètic 1"
+
+msgid "SynthBrass 2"
+msgstr "Metall sintètic 2"
+
+msgid "Soprano Sax"
+msgstr "Saxo soprà"
+
+msgid "Alto Sax"
+msgstr "Saxo Alt"
+
+msgid "Tenor Sax"
+msgstr "Saxo Tenor"
+
+msgid "Baritone Sax"
+msgstr "Saxo Baríton"
+
+msgid "Oboe"
+msgstr "Oboè"
+
+msgid "English Horn"
+msgstr "Corn anglès"
+
+msgid "Bassoon"
+msgstr "Fagot"
+
+msgid "Clarinet"
+msgstr "Clarinet"
+
+msgid "Piccolo"
+msgstr "Flautí"
+
+msgid "Flute"
+msgstr "Flauta"
+
+msgid "Recorder"
+msgstr "Gravador"
+
+msgid "Pan Flute"
+msgstr "Flauta de pan"
+
+msgid "Blown Bottle"
+msgstr "Bufar una ampolla"
+
+msgid "Shakuhachi"
+msgstr "Shakuhachi"
+
+msgid "Whistle"
+msgstr "Flauta"
+
+msgid "Ocarina"
+msgstr "Ocarina"
+
+msgid "Lead 1 (square)"
+msgstr "Principal 1 (ona cuadrada)"
+
+msgid "Lead 2 (sawtooth)"
+msgstr "Principal 2 (ona dent de serra)"
+
+msgid "Lead 3 (calliope)"
+msgstr "Principal 3 (orgue)"
+
+msgid "Lead 4 (chiff)"
+msgstr "Principal 4 (xiuxiueig)"
+
+msgid "Lead 5 (charang)"
+msgstr "Principal 5 (charanga)"
+
+msgid "Lead 6 (voice)"
+msgstr "Principal 6 (veu)"
+
+msgid "Lead 7 (fifths)"
+msgstr "Principal 7 (cinquenes)"
+
+#, fuzzy
+msgid "Lead 8 (bass + lead)"
+msgstr "Principal 8 (baix i melodia)"
+
+msgid "Pad 1 (new age)"
+msgstr "Fons 1 (new age)"
+
+msgid "Pad 2 (warm)"
+msgstr "Fons 2 (càlid)"
+
+msgid "Pad 3 (polysynth)"
+msgstr "Fons 3 (polisintetitzador)"
+
+msgid "Pad 4 (choir)"
+msgstr "Fons 4 (cor)"
+
+msgid "Pad 5 (bowed)"
+msgstr "Fons 5 (arc)"
+
+msgid "Pad 6 (metallic)"
+msgstr "Fons 6 (metàlic)"
+
+msgid "Pad 7 (halo)"
+msgstr "Fons 7 (celestial)"
+
+msgid "Pad 8 (sweep)"
+msgstr "Pad 8 (escombrat)"
+
+msgid "FX 1 (rain)"
+msgstr "Efecte 1 (pluja)"
+
+msgid "FX 2 (soundtrack)"
+msgstr "Efecte 2 (banda sonora)"
+
+msgid "FX 3 (crystal)"
+msgstr "Efecte 3 (cristal·lí)"
+
+msgid "FX 4 (atmosphere)"
+msgstr "Efecte 4 (atmòsfera)"
+
+msgid "FX 5 (brightness)"
+msgstr "Efecte 5 (lluentor)"
+
+msgid "FX 6 (goblins)"
+msgstr "Efecte 6 (follets)"
+
+msgid "FX 7 (echoes)"
+msgstr "Efecte 7 (ecos)"
+
+msgid "FX 8 (sci-fi)"
+msgstr "Efecte 8 (ciència ficció)"
+
+msgid "Sitar"
+msgstr "Sitar"
+
+msgid "Banjo"
+msgstr "Banjo"
+
+msgid "Shamisen"
+msgstr "Shamisen"
+
+msgid "Koto"
+msgstr "Koto"
+
+msgid "Kalimba"
+msgstr "Kalimba"
+
+#, fuzzy
+msgid "Bag pipe"
+msgstr "Sac de gemecs"
+
+msgid "Fiddle"
+msgstr "Violí"
+
+msgid "Shanai"
+msgstr "Shanai"
+
+msgid "Tinkle Bell"
+msgstr "Campaneta"
+
+msgid "Agogo"
+msgstr "Agogó"
+
+msgid "Steel Drums"
+msgstr "Percusió metàlica"
+
+msgid "Woodblock"
+msgstr "Fusta"
+
+msgid "Taiko Drum"
+msgstr "Percusió Taiko"
+
+msgid "Melodic Tom"
+msgstr "Tom melòdic"
+
+msgid "Synth Drum"
+msgstr "Percusió sintètica"
+
+msgid "Reverse Cymbal"
+msgstr "Plat invertit"
+
+msgid "Guitar Fret Noise"
+msgstr "Trasteig de guitarra"
+
+msgid "Breath Noise"
+msgstr "Respiració"
+
+msgid "Seashore"
+msgstr "Platja"
+
+msgid "Bird Tweet"
+msgstr "Ocellet cantant"
+
+msgid "Telephone Ring"
+msgstr "Timbre de telèfon"
+
+msgid "Helicopter"
+msgstr "Helicòpter"
+
+msgid "Applause"
+msgstr "Aplaudiment"
+
+msgid "Gunshot"
+msgstr "Tret de pistola"
+
+msgid "Acoustic Bass Drum"
+msgstr "Bombo acústic"
+
+msgid "Bass Drum 1"
+msgstr "Bombo"
+
+msgid "Side Stick"
+msgstr "Cop lateral"
+
+msgid "Hand Clap"
+msgstr "Aplaudiment"
+
+msgid "Acoustic Snare"
+msgstr "Caixa acústica"
+
+msgid "Electric Snare"
+msgstr "Tambor electrònic"
+
+msgid "Low Floor Tom"
+msgstr "Tom de terra greu"
+
+msgid "High Floor Tom"
+msgstr "Tom de terra agut"
+
+#. Original name; please translate identical to next one.
+#, fuzzy
+msgid "Closed Hi Hat"
+msgstr "Plats oberts"
+
+#. For spelling consistency with the other Hi-Hats.
+msgid "Closed Hi-Hat"
+msgstr "Plats oberts"
+
+msgid "Pedal Hi-Hat"
+msgstr "Hi-hat de pedal"
+
+msgid "Open Hi-Hat"
+msgstr "Hi-Hat obert"
+
+msgid "Low Tom"
+msgstr "Tom greu"
+
+msgid "Low-Mid Tom"
+msgstr "Tom mig-greu"
+
+msgid "Hi-Mid Tom"
+msgstr "Tom mig-agut"
+
+msgid "High Tom"
+msgstr "Tom agut"
+
+msgid "Chinese Cymbal"
+msgstr "Gong"
+
+msgid "Splash Cymbal"
+msgstr "Plat splash"
+
+msgid "Crash Cymbal 1"
+msgstr "Platet de xoc 1"
+
+msgid "Crash Cymbal 2"
+msgstr "Platet de xoc 2"
+
+msgid "Ride Cymbal 1"
+msgstr "Plat guia 1"
+
+msgid "Ride Cymbal 2"
+msgstr "Plat guia 2"
+
+msgid "Ride Bell"
+msgstr "Campana del plat"
+
+msgid "Tambourine"
+msgstr "Pandereta"
+
+msgid "Cowbell"
+msgstr "Esquella"
+
+msgid "Vibraslap"
+msgstr "Vibraslap"
+
+msgid "Hi Bongo"
+msgstr "Bongo agut"
+
+msgid "Low Bongo"
+msgstr "Bongo greu"
+
+msgid "Mute Hi Conga"
+msgstr "Conga aguda sorda"
+
+msgid "Open Hi Conga"
+msgstr "Conga aguda sonora"
+
+msgid "Low Conga"
+msgstr "Conga greu"
+
+msgid "High Timbale"
+msgstr "Timbal agut"
+
+msgid "Low Timbale"
+msgstr "Timbal greu"
+
+msgid "High Agogo"
+msgstr "Agogó alt"
+
+msgid "Low Agogo"
+msgstr "Agogó greu"
+
+msgid "Cabasa"
+msgstr "Cabasa"
+
+msgid "Maracas"
+msgstr "Maracas"
+
+msgid "Short Whistle"
+msgstr "Xiulet curt"
+
+msgid "Long Whistle"
+msgstr "Xiulet llarg"
+
+msgid "Short Guiro"
+msgstr "Guiro curt"
+
+msgid "Long Guiro"
+msgstr "Guiro llarg"
+
+msgid "Claves"
+msgstr "Claves"
+
+msgid "Hi Wood Block"
+msgstr "Caixa xinesa aguda"
+
+msgid "Low Wood Block"
+msgstr "Caixa xinesa greu"
+
+msgid "Mute Cuica"
+msgstr "Cuica sorda"
+
+msgid "Open Cuica"
+msgstr "Cuica sonora"
+
+msgid "Mute Triangle"
+msgstr "Triangle sord"
+
+msgid "Open Triangle"
+msgstr "Triangle sonor"

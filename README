@@ -1,7 +1,7 @@
 L'objectiu és revisar les traduccions de gnutools https://translationproject.org/team/ca.html i introduir-me millores.
 
 Mètode
-* El dipòsit té un branca origen que conté els fitxers tal com es van baixar sense cap canvi
+* El dipòsit té una branca origen que conté els fitxers tal com es van baixar sense cap canvi
 * A la branca master anem fent comissions amb les correccions
 
 Què corregirem?
@@ -11,7 +11,7 @@ Què corregirem?
 
 Quan?
 
-* Des del 13 d'octubre fins el 20 d'octubre. Després del dia 20 es pujaran aquests canvis i el projecte haurà finalitzat
+* Des del 13 d'octubre fins al 20 d'octubre. Després del dia 20 es pujaran aquests canvis i el projecte haurà finalitzat
 
 Com participar?
 * Obrir un "pull request" contra la branca master
